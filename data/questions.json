@@ -1,14 +1,1099 @@
 [
   {
-    "question": "Which keyword declares a block-scoped variable in JavaScript?",
-    "options": ["a) var", "b) let", "c) function", "d) const"],
-    "answer": 1,
-    "explanation": "✅ Correct! The answer is b) let.\n\n🔎 Explanation:\n\nlet and const are block-scoped, meaning they only exist within the nearest {} block.\n\nvar is function-scoped, so it ignores block boundaries."
+    "id": 1,
+    "question": "Which statement about HTML is NOT correct?",
+    "options": [
+      "HTML is used to structure the content of web pages.",
+      "HTML includes tags such as <p>, <h1>, and <div>.",
+      "HTML is used for styling and coloring web pages."
+    ],
+    "answer": 3,
+    "explanation": "Styling and coloring are handled by CSS, not HTML."
   },
   {
-    "question": "Which HTML tag is used to define an internal style sheet?",
-    "options": ["a) <script>", "b) <css>", "c) <style>", "d) <link>"],
+    "id": 2,
+    "question": "Which statement about the <img> tag in HTML is wrong?",
+    "options": [
+      "<img> is used to display an image.",
+      "The alt attribute provides alternative text for the image.",
+      "<img> is used to execute JavaScript in a page."
+    ],
+    "answer": 3,
+    "explanation": "<img> only displays images and cannot execute JavaScript."
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is NOT true about HTML forms?",
+    "options": [
+      "Forms are used to collect user input.",
+      "The <form> tag can contain inputs, checkboxes, and buttons.",
+      "Forms are used to style the webpage."
+    ],
+    "answer": 3,
+    "explanation": "Styling is handled by CSS, not HTML forms."
+  },
+  {
+    "id": 4,
+    "question": "Which statement about CSS is NOT correct?",
+    "options": [
+      "CSS is used to change colors, fonts, and spacing.",
+      "CSS can manage styling across multiple pages.",
+      "CSS is used to store user data in a database."
+    ],
+    "answer": 3,
+    "explanation": "Databases store data, CSS only handles styling."
+  },
+  {
+    "id": 5,
+    "question": "Which CSS property controls text size?",
+    "options": [
+      "font-size",
+      "text-style",
+      "text-size"
+    ],
+    "answer": 1,
+    "explanation": "The correct property is font-size."
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is NOT a valid CSS unit?",
+    "options": [
+      "px",
+      "em",
+      "kg"
+    ],
+    "answer": 3,
+    "explanation": "kg is a weight unit, not a CSS measurement unit."
+  },
+  {
+    "id": 7,
+    "question": "Which CSS property is used to change the background color?",
+    "options": [
+      "color",
+      "background-color",
+      "bgcolor"
+    ],
     "answer": 2,
-    "explanation": "✅ Correct! The answer is c) <style>.\n\n🔎 Explanation:\n\nThe <style> tag is used inside <head> to define internal CSS.\n<script> is for JavaScript and <link> is for external CSS."
+    "explanation": "background-color is the correct property."
+  },
+  {
+    "id": 8,
+    "question": "Which statement about CSS Flexbox is NOT correct?",
+    "options": [
+      "Flexbox is used for aligning items on a page.",
+      "justify-content is used to align items along the main axis.",
+      "Flexbox is used to store user data."
+    ],
+    "answer": 3,
+    "explanation": "Flexbox only handles layout, not data storage."
+  },
+  {
+    "id": 9,
+    "question": "Which property is used to create space inside an element, between the content and the border?",
+    "options": [
+      "padding",
+      "margin",
+      "border-spacing"
+    ],
+    "answer": 1,
+    "explanation": "Padding is the space inside the element."
+  },
+  {
+    "id": 10,
+    "question": "Which property creates space outside an element, between the element and others?",
+    "options": [
+      "padding",
+      "margin",
+      "spacing"
+    ],
+    "answer": 2,
+    "explanation": "Margin is the space outside the element."
+  },
+  {
+    "id": 11,
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>"
+    ],
+    "answer": 1,
+    "explanation": "The <a> tag is used for hyperlinks."
+  },
+  {
+    "id": 12,
+    "question": "Which attribute is required in the <img> tag?",
+    "options": [
+      "src",
+      "alt",
+      "href"
+    ],
+    "answer": 1,
+    "explanation": "The src attribute defines the image source."
+  },
+  {
+    "id": 13,
+    "question": "Which CSS property makes text bold?",
+    "options": [
+      "font-weight",
+      "font-bold",
+      "text-weight"
+    ],
+    "answer": 1,
+    "explanation": "font-weight is the correct property."
+  },
+  {
+    "id": 14,
+    "question": "Which CSS property is used to make text italic?",
+    "options": [
+      "font-style",
+      "font-italic",
+      "text-style"
+    ],
+    "answer": 1,
+    "explanation": "font-style: italic is correct."
+  },
+  {
+    "id": 15,
+    "question": "Which HTML tag is used to display tabular data?",
+    "options": [
+      "<table>",
+      "<grid>",
+      "<tab>"
+    ],
+    "answer": 1,
+    "explanation": "The <table> tag displays tabular data."
+  },
+  {
+    "id": 16,
+    "question": "Which tag is used to create a list with bullets?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<list>"
+    ],
+    "answer": 1,
+    "explanation": "<ul> creates an unordered (bulleted) list."
+  },
+  {
+    "id": 17,
+    "question": "Which tag is used to create a numbered list?",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>"
+    ],
+    "answer": 1,
+    "explanation": "<ol> creates an ordered (numbered) list."
+  },
+  {
+    "id": 18,
+    "question": "Which HTML tag is used to define the largest heading?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<heading>"
+    ],
+    "answer": 1,
+    "explanation": "<h1> defines the largest heading."
+  },
+  {
+    "id": 19,
+    "question": "Which property is used to set the width of an element in CSS?",
+    "options": [
+      "width",
+      "element-width",
+      "size"
+    ],
+    "answer": 1,
+    "explanation": "width is the correct property."
+  },
+  {
+    "id": 20,
+    "question": "Which CSS property is used to set the height of an element?",
+    "options": [
+      "height",
+      "element-height",
+      "size"
+    ],
+    "answer": 1,
+    "explanation": "height is the correct property."
+  },
+
+
+  {
+    "id": 21,
+    "question": "Which statement about JavaScript variables is NOT correct?",
+    "options": [
+      "var is function-scoped.",
+      "let and const are block-scoped.",
+      "JavaScript variables must always start with a capital letter."
+    ],
+    "answer": 3,
+    "explanation": "Variable names in JavaScript can start with lowercase letters; capitalization is not required."
+  },
+  {
+    "id": 22,
+    "question": "Which operator is used for strict equality comparison?",
+    "options": [
+      "==",
+      "===",
+      "="
+    ],
+    "answer": 3,
+    "explanation": "'=' is assignment, not comparison. Use '===' for strict equality."
+  },
+  {
+    "id": 23,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "JSON.convert()"
+    ],
+    "answer": 3,
+    "explanation": "JSON.parse() converts a JSON string into an object; JSON.convert() does not exist."
+  },
+  {
+    "id": 24,
+    "question": "Which method converts a JavaScript object into a JSON string?",
+    "options": [
+      "JSON.stringify()",
+      "JSON.parse()",
+      "JSON.toString()"
+    ],
+    "answer": 2,
+    "explanation": "JSON.stringify() converts an object to a JSON string."
+  },
+  {
+    "id": 25,
+    "question": "Which of the following is NOT a valid way to declare a function?",
+    "options": [
+      "function myFunc() {}",
+      "const myFunc = () => {}",
+      "function := myFunc() {}"
+    ],
+    "answer": 3,
+    "explanation": "function := myFunc() {} is invalid syntax."
+  },
+  {
+    "id": 26,
+    "question": "Which method adds a new element at the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "append()"
+    ],
+    "answer": 2,
+    "explanation": "push() adds an element; pop() removes the last element."
+  },
+  {
+    "id": 27,
+    "question": "Which method removes the last element of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "shift()"
+    ],
+    "answer": 1,
+    "explanation": "pop() removes the last element; push() adds one."
+  },
+  {
+    "id": 28,
+    "question": "Which statement about JavaScript loops is wrong?",
+    "options": [
+      "for loops iterate over a block of code.",
+      "while loops continue as long as a condition is true.",
+      "JavaScript does not support loops."
+    ],
+    "answer": 3,
+    "explanation": "JavaScript supports loops like for, while, and for...of."
+  },
+  {
+    "id": 29,
+    "question": "Which keyword defines a constant variable?",
+    "options": [
+      "const",
+      "let",
+      "var"
+    ],
+    "answer": 3,
+    "explanation": "const defines a constant; var and let are not constants."
+  },
+  {
+    "id": 30,
+    "question": "Which statement about JavaScript objects is NOT correct?",
+    "options": [
+      "Objects store key-value pairs.",
+      "You can access values using dot or bracket notation.",
+      "Objects can be iterated with a forEach() method directly."
+    ],
+    "answer": 3,
+    "explanation": "forEach() works on arrays, not directly on objects."
+  },
+  {
+    "id": 31,
+    "question": "Which statement about JavaScript arrays is wrong?",
+    "options": [
+      "Arrays can store multiple values.",
+      "Array elements can be accessed by index.",
+      "Array indices start at 1."
+    ],
+    "answer": 3,
+    "explanation": "Array indices start at 0, not 1."
+  },
+  {
+    "id": 32,
+    "question": "Which statement about JavaScript functions is NOT correct?",
+    "options": [
+      "Arrow functions do not have their own this context.",
+      "Function declarations are hoisted.",
+      "Arrow functions can be used as constructors with new."
+    ],
+    "answer": 3,
+    "explanation": "Arrow functions cannot be used as constructors."
+  },
+  {
+    "id": 33,
+    "question": "Which statement about the 'this' keyword is wrong?",
+    "options": [
+      "'this' refers to the context object in which a function is called.",
+      "Arrow functions inherit 'this' from their enclosing scope.",
+      "'this' always refers to the global object in any function."
+    ],
+    "answer": 3,
+    "explanation": "'this' depends on the calling context; it is not always the global object."
+  },
+
+  {
+    "id": 35,
+    "question": "Which method is used to find the length of a string?",
+    "options": [
+      "str.length",
+      "str.size",
+      "str.count"
+    ],
+    "answer": 2,
+    "explanation": "str.length returns the number of characters in the string."
+  },
+  {
+    "id": 36,
+    "question": "Which statement about JavaScript events is wrong?",
+    "options": [
+      "addEventListener() attaches an event handler to an element.",
+      "onclick can be assigned directly to a function.",
+      "Events cannot be used in JavaScript."
+    ],
+    "answer": 3,
+    "explanation": "JavaScript fully supports events."
+  },
+  {
+    "id": 37,
+    "question": "Which statement about JavaScript Date object is wrong?",
+    "options": [
+      "new Date() creates a new date object.",
+      "getFullYear() returns the year of the date.",
+      "Date objects can be used to style HTML elements."
+    ],
+    "answer": 3,
+    "explanation": "Date objects are for handling date/time, not styling elements."
+  },
+  {
+    "id": 38,
+    "question": "Which statement about JavaScript Boolean values is wrong?",
+    "options": [
+      "Boolean values can be true or false.",
+      "Comparisons return Boolean values.",
+      "Boolean can have values 'yes' or 'no'."
+    ],
+    "answer": 3,
+    "explanation": "Booleans can only be true or false."
+  },
+  {
+    "id": 39,
+    "question": "Which method is used to remove whitespace from both ends of a string?",
+    "options": [
+      "trim()",
+      "slice()",
+      "substr()"
+    ],
+    "answer": 2,
+    "explanation": "trim() removes spaces from both ends; slice() does not specifically trim whitespace."
+  },
+  {
+    "id": 40,
+    "question": "Which operator is used to concatenate strings in JavaScript?",
+    "options": [
+      "+",
+      "&",
+      "&&"
+    ],
+    "answer": 2,
+    "explanation": "The '+' operator concatenates strings."
+  },
+
+  {
+    "id": 41,
+    "question": "Which of the following is NOT true about React?",
+    "options": [
+      "React is a JavaScript library for building user interfaces.",
+      "React allows creating reusable components.",
+      "React is a database management system."
+    ],
+    "answer": 3,
+    "explanation": "React is used for building UI, not for managing databases."
+  },
+  {
+    "id": 42,
+    "question": "Which statement about JSX is wrong?",
+    "options": [
+      "JSX allows writing HTML in JavaScript.",
+      "JSX elements must have a single parent element.",
+      "JSX is an independent programming language."
+    ],
+    "answer": 3,
+    "explanation": "JSX is not a standalone language; it’s syntax sugar for React.createElement."
+  },
+  {
+    "id": 43,
+    "question": "Which is the correct way to define a functional component in React?",
+    "options": [
+      "function MyComponent() { return <h1>Hello</h1>; }",
+      "const MyComponent = () => <h1>Hello</h1>;",
+      "component MyComponent = function() { return <h1>Hello</h1>; }"
+    ],
+    "answer": 3,
+    "explanation": "The syntax 'component MyComponent = ...' is invalid in React."
+  },
+  {
+    "id": 44,
+    "question": "Which statement about useState is NOT correct?",
+    "options": [
+      "useState is a React Hook to manage state in functional components.",
+      "useState returns an array with the state and a setter function.",
+      "useState can be called outside a component."
+    ],
+    "answer": 3,
+    "explanation": "Hooks like useState can only be called inside functional components."
+  },
+  {
+    "id": 45,
+    "question": "Which statement about useEffect is wrong?",
+    "options": [
+      "useEffect runs side effects in functional components.",
+      "useEffect can replace componentDidMount and componentDidUpdate.",
+      "useEffect can be used to directly update the DOM outside React's rendering."
+    ],
+    "answer": 3,
+    "explanation": "Direct DOM manipulation outside React is discouraged; useEffect is for controlled side effects."
+  },
+  {
+    "id": 46,
+    "question": "Which is NOT a valid way to pass props to a React component?",
+    "options": [
+      "<MyComponent name='Alice' />",
+      "<MyComponent age={25} />",
+      "<MyComponent {name='Alice'} />"
+    ],
+    "answer": 3,
+    "explanation": "Props must be passed as name=value or name={value}, not inside braces like {name='Alice'}."
+  },
+  {
+    "id": 47,
+    "question": "Which statement about React keys is wrong?",
+    "options": [
+      "Keys help React identify which items changed in a list.",
+      "Keys should be unique among siblings.",
+      "Keys determine the order of items in an array."
+    ],
+    "answer": 3,
+    "explanation": "Keys help React optimize rendering but do not determine order in the array."
+  },
+  {
+    "id": 48,
+    "question": "Which statement about React component naming is NOT correct?",
+    "options": [
+      "Component names must start with a capital letter.",
+      "Lowercase names are treated as HTML elements.",
+      "React component names must be all uppercase letters."
+    ],
+    "answer": 3,
+    "explanation": "Names should start with a capital letter, but all uppercase is not required."
+  },
+  {
+    "id": 49,
+    "question": "Which statement about controlled components in React is wrong?",
+    "options": [
+      "Controlled components have their state managed by React.",
+      "The value of an input is set via state and updated with onChange.",
+      "Controlled components can change value directly without state."
+    ],
+    "answer": 3,
+    "explanation": "In controlled components, input value should always come from state."
+  },
+  {
+    "id": 50,
+    "question": "Which statement about React Fragment is NOT correct?",
+    "options": [
+      "Fragments let you group elements without adding extra nodes.",
+      "Fragments can use the shorthand <>...</>.",
+      "Fragments create extra <div> tags in the DOM."
+    ],
+    "answer": 3,
+    "explanation": "Fragments do not create extra elements in the DOM."
+  },
+  {
+    "id": 51,
+    "question": "Which statement about React event handling is wrong?",
+    "options": [
+      "React events are named using camelCase.",
+      "React events are passed as functions.",
+      "React events use HTML attributes like onclick."
+    ],
+    "answer": 3,
+    "explanation": "React uses camelCase (onClick), not lowercase HTML attributes (onclick)."
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is NOT true about React props?",
+    "options": [
+      "Props are read-only.",
+      "Props can be used to pass data from parent to child components.",
+      "Props can be modified by the child component."
+    ],
+    "answer": 3,
+    "explanation": "Child components cannot modify props; they are read-only."
+  },
+  {
+    "id": 53,
+    "question": "Which statement about React state is wrong?",
+    "options": [
+      "State stores dynamic data in a component.",
+      "State updates are asynchronous.",
+      "State can be accessed directly from other components."
+    ],
+    "answer": 3,
+    "explanation": "State is local to a component; other components cannot access it directly."
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is NOT a valid React Hook?",
+    "options": [
+      "useState",
+      "useEffect",
+      "useTimer"
+    ],
+    "answer": 3,
+    "explanation": "useTimer is not a built-in React Hook."
+  },
+  {
+    "id": 55,
+    "question": "Which statement about conditional rendering is wrong?",
+    "options": [
+      "You can use the ternary operator for conditional rendering.",
+      "You can use logical && for conditional rendering.",
+      "You can use if statements directly inside JSX expressions."
+    ],
+    "answer": 3,
+    "explanation": "if statements cannot be used directly inside JSX expressions."
+  },
+  {
+    "id": 56,
+    "question": "Which statement about React lists is NOT correct?",
+    "options": [
+      "Use map() to render multiple elements.",
+      "Each list item should have a unique key.",
+      "You should avoid using keys completely."
+    ],
+    "answer": 3,
+    "explanation": "Keys are required to help React identify elements efficiently."
+  },
+  {
+    "id": 57,
+    "question": "Which statement about React Router is wrong?",
+    "options": [
+      "React Router allows navigation between components.",
+      "React Router uses <Route> and <Link> components.",
+      "React Router is used to style React components."
+    ],
+    "answer": 3,
+    "explanation": "React Router handles routing, not styling."
+  },
+  {
+    "id": 58,
+    "question": "Which statement about React context is NOT correct?",
+    "options": [
+      "Context provides a way to pass data without props.",
+      "Context is useful for global data like theme or language.",
+      "Context automatically re-renders the whole app whenever a component mounts."
+    ],
+    "answer": 3,
+    "explanation": "Context updates only affect subscribed components, not the whole app."
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is NOT true about React refs?",
+    "options": [
+      "Refs can be created using React.createRef() or useRef().",
+      "Refs can directly access DOM elements.",
+      "Refs can replace state for all dynamic data management."
+    ],
+    "answer": 3,
+    "explanation": "Refs should not replace state; they are only for direct DOM access or persisting values."
+  },
+  {
+    "id": 60,
+    "question": "Which statement about React StrictMode is wrong?",
+    "options": [
+      "StrictMode helps identify potential problems in an app.",
+      "StrictMode renders components twice in development mode for checks.",
+      "StrictMode is required in production apps to work."
+    ],
+    "answer": 3,
+    "explanation": "StrictMode is only for development checks, not required in production."
+  },
+
+  {
+    "id": 61,
+    "question": "Which of the following is NOT true about Bootstrap?",
+    "options": [
+      "Bootstrap is a CSS framework for responsive design.",
+      "Bootstrap provides pre-built components and utilities.",
+      "Bootstrap is used for backend data processing."
+    ],
+    "answer": 3,
+    "explanation": "Bootstrap only handles frontend design; it does not manage backend processes."
+  },
+  {
+    "id": 62,
+    "question": "Which class in Bootstrap adds a margin to an element?",
+    "options": [
+      "m-3",
+      "p-3",
+      "margin"
+    ],
+    "answer": 2,
+    "explanation": "m-3 adds margin; p-3 adds padding."
+  },
+  {
+    "id": 63,
+    "question": "Which Bootstrap class adds padding to an element?",
+    "options": [
+      "p-3",
+      "m-3",
+      "pad-3"
+    ],
+    "answer": 1,
+    "explanation": "p-3 adds padding; m-3 adds margin. pad-3 is not valid."
+  },
+  {
+    "id": 64,
+    "question": "Which class centers text in Bootstrap?",
+    "options": [
+      "text-center",
+      "center-text",
+      "align-center"
+    ],
+    "answer": 1,
+    "explanation": "text-center centers text horizontally."
+  },
+  {
+    "id": 65,
+    "question": "Which class makes an element responsive in Bootstrap?",
+    "options": [
+      "img-fluid",
+      "responsive",
+      "img-responsive"
+    ],
+    "answer": 1,
+    "explanation": "img-fluid makes images scale automatically with the parent element."
+  },
+  {
+    "id": 66,
+    "question": "Which class makes a button primary colored in Bootstrap?",
+    "options": [
+      "btn-primary",
+      "btn-main",
+      "button-primary"
+    ],
+    "answer": 1,
+    "explanation": "btn-primary applies the primary Bootstrap color to buttons."
+  },
+  {
+    "id": 67,
+    "question": "Which class creates a Bootstrap card?",
+    "options": [
+      "card",
+      "panel",
+      "box"
+    ],
+    "answer": 1,
+    "explanation": "The card class is used to create card components."
+  },
+  {
+    "id": 68,
+    "question": "Which class makes a Bootstrap navbar fixed at the top?",
+    "options": [
+      "fixed-top",
+      "sticky-top",
+      "top-nav"
+    ],
+    "answer": 1,
+    "explanation": "fixed-top keeps the navbar at the top of the viewport."
+  },
+  {
+    "id": 69,
+    "question": "Which class makes a Bootstrap navbar stick only when scrolling?",
+    "options": [
+      "sticky-top",
+      "fixed-top",
+      "navbar-stick"
+    ],
+    "answer": 1,
+    "explanation": "sticky-top makes the element stick after scrolling to its position."
+  },
+  {
+    "id": 70,
+    "question": "Which class makes a Bootstrap element hidden on small screens?",
+    "options": [
+      "d-none d-sm-block",
+      "d-block d-sm-none",
+      "hidden-sm"
+    ],
+    "answer": 1,
+    "explanation": "d-none hides the element, d-sm-block shows it on small screens and above."
+  },
+  {
+    "id": 71,
+    "question": "Which class is used to create a Bootstrap container with fixed width?",
+    "options": [
+      "container",
+      "container-fluid",
+      "container-fixed"
+    ],
+    "answer": 1,
+    "explanation": "container creates a responsive fixed-width container."
+  },
+  {
+    "id": 72,
+    "question": "Which class is used for a full-width container in Bootstrap?",
+    "options": [
+      "container-fluid",
+      "container",
+      "full-container"
+    ],
+    "answer": 1,
+    "explanation": "container-fluid spans the entire width of the viewport."
+  },
+  {
+    "id": 73,
+    "question": "Which class is used to create a Bootstrap row?",
+    "options": [
+      "row",
+      "col",
+      "grid-row"
+    ],
+    "answer": 1,
+    "explanation": "row is used to define a horizontal row in the grid system."
+  },
+  {
+    "id": 74,
+    "question": "Which class is used to create a column that spans 6 grid units?",
+    "options": [
+      "col-6",
+      "col-md-6",
+      "col-span-6"
+    ],
+    "answer": 1,
+    "explanation": "col-6 makes the column span 6 units on all breakpoints."
+  },
+  {
+    "id": 75,
+    "question": "Which class adds a Bootstrap alert with a success style?",
+    "options": [
+      "alert alert-success",
+      "alert-success",
+      "alert-successful"
+    ],
+    "answer": 1,
+    "explanation": "alert alert-success creates a green success alert."
+  },
+  {
+    "id": 76,
+    "question": "Which class adds a Bootstrap modal?",
+    "options": [
+      "modal",
+      "popup",
+      "dialog-box"
+    ],
+    "answer": 1,
+    "explanation": "The modal class is used for Bootstrap modal dialogs."
+  },
+  {
+    "id": 77,
+    "question": "Which class is used to create a Bootstrap dropdown menu?",
+    "options": [
+      "dropdown",
+      "dropmenu",
+      "menu-dropdown"
+    ],
+    "answer": 1,
+    "explanation": "The dropdown class creates a dropdown container."
+  },
+  {
+    "id": 78,
+    "question": "Which class is used to create a Bootstrap list group?",
+    "options": [
+      "list-group",
+      "group-list",
+      "list-container"
+    ],
+    "answer": 1,
+    "explanation": "list-group creates a Bootstrap styled list."
+  },
+  {
+    "id": 79,
+    "question": "Which class is used for Bootstrap badges?",
+    "options": [
+      "badge",
+      "label",
+      "tag"
+    ],
+    "answer": 1,
+    "explanation": "badge creates small count or label indicators."
+  },
+  {
+    "id": 80,
+    "question": "Which class adds a Bootstrap carousel?",
+    "options": [
+      "carousel",
+      "slider",
+      "carousel-slide"
+    ],
+    "answer": 1,
+    "explanation": "The carousel class creates a sliding carousel component."
+  },
+
+  {
+    "id": 81,
+    "question": "Which HTML element is used to define the main content of a page?",
+    "options": [
+      "<main>",
+      "<section>",
+      "<div>"
+    ],
+    "answer": 1,
+    "explanation": "<main> is intended to contain the main content of a page."
+  },
+  {
+    "id": 82,
+    "question": "Which CSS property changes the background color of an element?",
+    "options": [
+      "background-color",
+      "color",
+      "bgcolor"
+    ],
+    "answer": 1,
+    "explanation": "background-color sets the background; color sets text color."
+  },
+  {
+    "id": 83,
+    "question": "Which CSS property is used to create a flex container?",
+    "options": [
+      "display: flex;",
+      "display: block;",
+      "display: inline"
+    ],
+    "answer": 1,
+    "explanation": "display: flex enables flexbox layout."
+  },
+  {
+    "id": 84,
+    "question": "Which JavaScript method adds an element at the beginning of an array?",
+    "options": [
+      "unshift()",
+      "push()",
+      "shift()"
+    ],
+    "answer": 1,
+    "explanation": "unshift() adds elements to the start; push() adds to the end."
+  },
+  {
+    "id": 85,
+    "question": "Which React Hook is used to manage side effects?",
+    "options": [
+      "useEffect",
+      "useState",
+      "useContext"
+    ],
+    "answer": 1,
+    "explanation": "useEffect runs side effects in functional components."
+  },
+  {
+    "id": 86,
+    "question": "Which Bootstrap class adds rounded corners to an element?",
+    "options": [
+      "rounded",
+      "border-radius",
+      "cornered"
+    ],
+    "answer": 1,
+    "explanation": "The rounded class applies border-radius to elements."
+  },
+  {
+    "id": 87,
+    "question": "Which HTML element is used to define navigation links?",
+    "options": [
+      "<nav>",
+      "<header>",
+      "<footer>"
+    ],
+    "answer": 1,
+    "explanation": "<nav> is semantically for navigation."
+  },
+  {
+    "id": 88,
+    "question": "Which CSS property controls the spacing between letters?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "line-height"
+    ],
+    "answer": 1,
+    "explanation": "letter-spacing adjusts the space between characters."
+  },
+  {
+    "id": 89,
+    "question": "Which JavaScript method checks if an array contains a specific value?",
+    "options": [
+      "includes()",
+      "contains()",
+      "has()"
+    ],
+    "answer": 1,
+    "explanation": "includes() returns true if the array contains the value."
+  },
+  {
+    "id": 90,
+    "question": "Which React Hook allows sharing state across components without props?",
+    "options": [
+      "useContext",
+      "useState",
+      "useReducer"
+    ],
+    "answer": 1,
+    "explanation": "useContext allows global state sharing via context."
+  },
+  {
+    "id": 91,
+    "question": "Which Bootstrap class adds a shadow effect to a card?",
+    "options": [
+      "shadow",
+      "card-shadow",
+      "shadow-effect"
+    ],
+    "answer": 1,
+    "explanation": "The shadow class adds default box-shadow to elements."
+  },
+  {
+    "id": 92,
+    "question": "Which HTML input type is used for entering email addresses?",
+    "options": [
+      "email",
+      "text",
+      "email-address"
+    ],
+    "answer": 1,
+    "explanation": "type='email' validates input as an email address."
+  },
+  {
+    "id": 93,
+    "question": "Which CSS property controls the stacking order of elements?",
+    "options": [
+      "z-index",
+      "stack-order",
+      "order"
+    ],
+    "answer": 1,
+    "explanation": "z-index sets the stacking order of positioned elements."
+  },
+  {
+    "id": 94,
+    "question": "Which JavaScript keyword is used to create a constant variable?",
+    "options": [
+      "const",
+      "let",
+      "var"
+    ],
+    "answer": 1,
+    "explanation": "const defines a variable whose value cannot be reassigned."
+  },
+  {
+    "id": 95,
+    "question": "Which React method is used to render a component into the DOM?",
+    "options": [
+      "ReactDOM.render()",
+      "React.render()",
+      "ReactDOM.create()"
+    ],
+    "answer": 1,
+    "explanation": "ReactDOM.render() mounts a React component into the DOM."
+  },
+  {
+    "id": 96,
+    "question": "Which Bootstrap class makes text bold?",
+    "options": [
+      "fw-bold",
+      "text-bold",
+      "font-bold"
+    ],
+    "answer": 1,
+    "explanation": "fw-bold applies font-weight: bold."
+  },
+  {
+    "id": 97,
+    "question": "Which HTML element defines a table row?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>"
+    ],
+    "answer": 1,
+    "explanation": "<tr> defines a table row; <td> is for cells."
+  },
+  {
+    "id": 98,
+    "question": "Which CSS property changes the text color?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color"
+    ],
+    "answer": 1,
+    "explanation": "color sets the text color in CSS."
+  },
+  {
+    "id": 99,
+    "question": "Which JavaScript statement is used to handle exceptions?",
+    "options": [
+      "try...catch",
+      "throw...catch",
+      "error...handle"
+    ],
+    "answer": 1,
+    "explanation": "try...catch blocks handle exceptions in JavaScript."
+  },
+  {
+    "id": 100,
+    "question": "Which Bootstrap class adds a responsive table?",
+    "options": [
+      "table-responsive",
+      "table-fluid",
+      "table-scroll"
+    ],
+    "answer": 1,
+    "explanation": "table-responsive makes tables scroll horizontally on small screens."
   }
 ]
+
+
