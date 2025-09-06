@@ -1,0 +1,69 @@
+
+.navbar-brand {
+  background: linear-gradient(90deg, #3396D3, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.navbar-toggler {
+    font-size: 12px;
+    padding: 3px;
+    color: #000000 !important;
+    transition: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggler:focus:hover {
+   background-color: #F3F2EC;
+   color: #000000;
+   border-radius: 5px;
+   outline: none !important;
+}
+
+/* offcanvas */
+.offcanvas-start {
+  width: 200px;
+  background: linear-gradient(to bottom, #e3ddf0, #f9f9ff);
+}
+
+.offcanvas .nav-link {
+  padding: 8px 15px; 
+  border-radius: 8px;
+  display: block;
+}
+
+.offcanvas .nav-link:hover {
+  background-color: #F3F2EC  !important;
+  transform: none; 
+}
+
+
+.btn-close:hover {
+    background-color: #d1c5ec;
+    color: #000 !important;
+    box-shadow: none;
+}
+
+
+ .nav-link{
+    transition: none !important;
+    padding: 3px 8px;
+    color: #000000 !important;
+    font-weight: 500;
+    font-family: Canva Sans, Noto Sans Variable, Noto Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    
+}
+
+ .nav-link:hover {
+    background-color: #F3F2EC !important;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+

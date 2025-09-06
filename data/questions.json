@@ -1,0 +1,14 @@
+[
+  {
+    "question": "Which keyword declares a block-scoped variable in JavaScript?",
+    "options": ["a) var", "b) let", "c) function", "d) const"],
+    "answer": 1,
+    "explanation": "✅ Correct! The answer is b) let.\n\n🔎 Explanation:\n\nlet and const are block-scoped, meaning they only exist within the nearest {} block.\n\nvar is function-scoped, so it ignores block boundaries."
+  },
+  {
+    "question": "Which HTML tag is used to define an internal style sheet?",
+    "options": ["a) <script>", "b) <css>", "c) <style>", "d) <link>"],
+    "answer": 2,
+    "explanation": "✅ Correct! The answer is c) <style>.\n\n🔎 Explanation:\n\nThe <style> tag is used inside <head> to define internal CSS.\n<script> is for JavaScript and <link> is for external CSS."
+  }
+]
