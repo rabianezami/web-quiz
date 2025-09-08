@@ -1,29 +1,28 @@
-import { renderNavbar } from "./modules/navbar.js";
 
-// Render navbar
+import { renderNavbar } from "./modules/navbar.js";
+import { renderHeroSection } from "./modules/heroSection.js";
+import { renderQuiz } from "./modules/quiz.js";
+
+// Render Navbar
 document.querySelector("#navbar-container").innerHTML = renderNavbar();
 
-import { renderHeroSection } from "./modules/heroSection.js";
 
-// Render heroSection
 const heroContent = {
-    //  title: "Ready to test your knowledge?",
     description: "Answer questions, track your score, and challenge yourself!",
     buttonText: "Start Quiz",
-    buttonLink: "#quiz"
-}
+    buttonLink: "#quiz"  
+};
 
+// Render Hero
 document.querySelector("#root").innerHTML += renderHeroSection(heroContent);
 
 
-import { renderQuiz } from "./modules/quiz.js";
+// Render quiz
+const quizContainer = document.getElementById("quiz");
 
-const quizContainer = document.getElementById("quiz-container");
-if (quizContainer) {
-  renderQuiz(quizContainer);
-} else {
-  console.error("Quiz container not found!");
-}
+document.querySelector(".btn-start-quiz").addEventListener("click", (e) => {
+    e.preventDefault(); 
+    quizContainer.scrollIntoView({ behavior: "smooth" });
 
- 
-
+    renderQuiz(quizContainer);
+});

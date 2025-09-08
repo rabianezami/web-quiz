@@ -7,7 +7,7 @@
       "HTML includes tags such as <p>, <h1>, and <div>.",
       "HTML is used for styling and coloring web pages."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Styling and coloring are handled by CSS, not HTML."
   },
   {
@@ -18,7 +18,7 @@
       "The alt attribute provides alternative text for the image.",
       "<img> is used to execute JavaScript in a page."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "<img> only displays images and cannot execute JavaScript."
   },
   {
@@ -29,7 +29,7 @@
       "The <form> tag can contain inputs, checkboxes, and buttons.",
       "Forms are used to style the webpage."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Styling is handled by CSS, not HTML forms."
   },
   {
@@ -40,7 +40,7 @@
       "CSS can manage styling across multiple pages.",
       "CSS is used to store user data in a database."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Databases store data, CSS only handles styling."
   },
   {
@@ -51,7 +51,7 @@
       "text-style",
       "text-size"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The correct property is font-size."
   },
   {
@@ -62,7 +62,7 @@
       "em",
       "kg"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "kg is a weight unit, not a CSS measurement unit."
   },
   {
@@ -73,7 +73,7 @@
       "background-color",
       "bgcolor"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "background-color is the correct property."
   },
   {
@@ -84,7 +84,7 @@
       "justify-content is used to align items along the main axis.",
       "Flexbox is used to store user data."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Flexbox only handles layout, not data storage."
   },
   {
@@ -106,7 +106,7 @@
       "margin",
       "spacing"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Margin is the space outside the element."
   },
   {
@@ -117,7 +117,7 @@
       "<link>",
       "<href>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The <a> tag is used for hyperlinks."
   },
   {
@@ -128,7 +128,7 @@
       "alt",
       "href"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The src attribute defines the image source."
   },
   {
@@ -139,7 +139,7 @@
       "font-bold",
       "text-weight"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "font-weight is the correct property."
   },
   {
@@ -150,7 +150,7 @@
       "font-italic",
       "text-style"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "font-style: italic is correct."
   },
   {
@@ -161,7 +161,7 @@
       "<grid>",
       "<tab>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The <table> tag displays tabular data."
   },
   {
@@ -172,7 +172,7 @@
       "<ol>",
       "<list>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<ul> creates an unordered (bulleted) list."
   },
   {
@@ -183,7 +183,7 @@
       "<ul>",
       "<li>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<ol> creates an ordered (numbered) list."
   },
   {
@@ -194,7 +194,7 @@
       "<h6>",
       "<heading>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<h1> defines the largest heading."
   },
   {
@@ -205,7 +205,7 @@
       "element-width",
       "size"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "width is the correct property."
   },
   {
@@ -216,7 +216,7 @@
       "element-height",
       "size"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "height is the correct property."
   },
 
@@ -229,7 +229,7 @@
       "let and const are block-scoped.",
       "JavaScript variables must always start with a capital letter."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Variable names in JavaScript can start with lowercase letters; capitalization is not required."
   },
   {
@@ -240,7 +240,7 @@
       "===",
       "="
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "'=' is assignment, not comparison. Use '===' for strict equality."
   },
   {
@@ -251,7 +251,7 @@
       "JSON.stringify()",
       "JSON.convert()"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "JSON.parse() converts a JSON string into an object; JSON.convert() does not exist."
   },
   {
@@ -262,7 +262,7 @@
       "JSON.parse()",
       "JSON.toString()"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "JSON.stringify() converts an object to a JSON string."
   },
   {
@@ -273,7 +273,7 @@
       "const myFunc = () => {}",
       "function := myFunc() {}"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "function := myFunc() {} is invalid syntax."
   },
   {
@@ -284,7 +284,7 @@
       "pop()",
       "append()"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "push() adds an element; pop() removes the last element."
   },
   {
@@ -295,7 +295,7 @@
       "pop()",
       "shift()"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "pop() removes the last element; push() adds one."
   },
   {
@@ -306,7 +306,7 @@
       "while loops continue as long as a condition is true.",
       "JavaScript does not support loops."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "JavaScript supports loops like for, while, and for...of."
   },
   {
@@ -317,7 +317,7 @@
       "let",
       "var"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "const defines a constant; var and let are not constants."
   },
   {
@@ -328,7 +328,7 @@
       "You can access values using dot or bracket notation.",
       "Objects can be iterated with a forEach() method directly."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "forEach() works on arrays, not directly on objects."
   },
   {
@@ -339,7 +339,7 @@
       "Array elements can be accessed by index.",
       "Array indices start at 1."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Array indices start at 0, not 1."
   },
   {
@@ -350,7 +350,7 @@
       "Function declarations are hoisted.",
       "Arrow functions can be used as constructors with new."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Arrow functions cannot be used as constructors."
   },
   {
@@ -361,7 +361,7 @@
       "Arrow functions inherit 'this' from their enclosing scope.",
       "'this' always refers to the global object in any function."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "'this' depends on the calling context; it is not always the global object."
   },
 
@@ -373,7 +373,7 @@
       "str.size",
       "str.count"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "str.length returns the number of characters in the string."
   },
   {
@@ -384,7 +384,7 @@
       "onclick can be assigned directly to a function.",
       "Events cannot be used in JavaScript."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "JavaScript fully supports events."
   },
   {
@@ -395,7 +395,7 @@
       "getFullYear() returns the year of the date.",
       "Date objects can be used to style HTML elements."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Date objects are for handling date/time, not styling elements."
   },
   {
@@ -406,7 +406,7 @@
       "Comparisons return Boolean values.",
       "Boolean can have values 'yes' or 'no'."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Booleans can only be true or false."
   },
   {
@@ -417,7 +417,7 @@
       "slice()",
       "substr()"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "trim() removes spaces from both ends; slice() does not specifically trim whitespace."
   },
   {
@@ -428,7 +428,7 @@
       "&",
       "&&"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "The '+' operator concatenates strings."
   },
 
@@ -440,7 +440,7 @@
       "React allows creating reusable components.",
       "React is a database management system."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "React is used for building UI, not for managing databases."
   },
   {
@@ -451,7 +451,7 @@
       "JSX elements must have a single parent element.",
       "JSX is an independent programming language."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "JSX is not a standalone language; it’s syntax sugar for React.createElement."
   },
   {
@@ -462,7 +462,7 @@
       "const MyComponent = () => <h1>Hello</h1>;",
       "component MyComponent = function() { return <h1>Hello</h1>; }"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The syntax 'component MyComponent = ...' is invalid in React."
   },
   {
@@ -473,7 +473,7 @@
       "useState returns an array with the state and a setter function.",
       "useState can be called outside a component."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Hooks like useState can only be called inside functional components."
   },
   {
@@ -484,7 +484,7 @@
       "useEffect can replace componentDidMount and componentDidUpdate.",
       "useEffect can be used to directly update the DOM outside React's rendering."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Direct DOM manipulation outside React is discouraged; useEffect is for controlled side effects."
   },
   {
@@ -495,7 +495,7 @@
       "<MyComponent age={25} />",
       "<MyComponent {name='Alice'} />"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Props must be passed as name=value or name={value}, not inside braces like {name='Alice'}."
   },
   {
@@ -506,7 +506,7 @@
       "Keys should be unique among siblings.",
       "Keys determine the order of items in an array."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Keys help React optimize rendering but do not determine order in the array."
   },
   {
@@ -517,7 +517,7 @@
       "Lowercase names are treated as HTML elements.",
       "React component names must be all uppercase letters."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Names should start with a capital letter, but all uppercase is not required."
   },
   {
@@ -528,7 +528,7 @@
       "The value of an input is set via state and updated with onChange.",
       "Controlled components can change value directly without state."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "In controlled components, input value should always come from state."
   },
   {
@@ -539,7 +539,7 @@
       "Fragments can use the shorthand <>...</>.",
       "Fragments create extra <div> tags in the DOM."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Fragments do not create extra elements in the DOM."
   },
   {
@@ -550,7 +550,7 @@
       "React events are passed as functions.",
       "React events use HTML attributes like onclick."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "React uses camelCase (onClick), not lowercase HTML attributes (onclick)."
   },
   {
@@ -561,7 +561,7 @@
       "Props can be used to pass data from parent to child components.",
       "Props can be modified by the child component."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Child components cannot modify props; they are read-only."
   },
   {
@@ -572,7 +572,7 @@
       "State updates are asynchronous.",
       "State can be accessed directly from other components."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "State is local to a component; other components cannot access it directly."
   },
   {
@@ -583,7 +583,7 @@
       "useEffect",
       "useTimer"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "useTimer is not a built-in React Hook."
   },
   {
@@ -594,7 +594,7 @@
       "You can use logical && for conditional rendering.",
       "You can use if statements directly inside JSX expressions."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "if statements cannot be used directly inside JSX expressions."
   },
   {
@@ -605,7 +605,7 @@
       "Each list item should have a unique key.",
       "You should avoid using keys completely."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Keys are required to help React identify elements efficiently."
   },
   {
@@ -616,7 +616,7 @@
       "React Router uses <Route> and <Link> components.",
       "React Router is used to style React components."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "React Router handles routing, not styling."
   },
   {
@@ -627,7 +627,7 @@
       "Context is useful for global data like theme or language.",
       "Context automatically re-renders the whole app whenever a component mounts."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Context updates only affect subscribed components, not the whole app."
   },
   {
@@ -638,7 +638,7 @@
       "Refs can directly access DOM elements.",
       "Refs can replace state for all dynamic data management."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Refs should not replace state; they are only for direct DOM access or persisting values."
   },
   {
@@ -649,7 +649,7 @@
       "StrictMode renders components twice in development mode for checks.",
       "StrictMode is required in production apps to work."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "StrictMode is only for development checks, not required in production."
   },
 
@@ -661,7 +661,7 @@
       "Bootstrap provides pre-built components and utilities.",
       "Bootstrap is used for backend data processing."
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Bootstrap only handles frontend design; it does not manage backend processes."
   },
   {
@@ -672,7 +672,7 @@
       "p-3",
       "margin"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "m-3 adds margin; p-3 adds padding."
   },
   {
@@ -683,7 +683,7 @@
       "m-3",
       "pad-3"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "p-3 adds padding; m-3 adds margin. pad-3 is not valid."
   },
   {
@@ -694,7 +694,7 @@
       "center-text",
       "align-center"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "text-center centers text horizontally."
   },
   {
@@ -705,7 +705,7 @@
       "responsive",
       "img-responsive"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "img-fluid makes images scale automatically with the parent element."
   },
   {
@@ -716,7 +716,7 @@
       "btn-main",
       "button-primary"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "btn-primary applies the primary Bootstrap color to buttons."
   },
   {
@@ -727,7 +727,7 @@
       "panel",
       "box"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The card class is used to create card components."
   },
   {
@@ -738,7 +738,7 @@
       "sticky-top",
       "top-nav"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "fixed-top keeps the navbar at the top of the viewport."
   },
   {
@@ -749,7 +749,7 @@
       "fixed-top",
       "navbar-stick"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "sticky-top makes the element stick after scrolling to its position."
   },
   {
@@ -760,7 +760,7 @@
       "d-block d-sm-none",
       "hidden-sm"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "d-none hides the element, d-sm-block shows it on small screens and above."
   },
   {
@@ -771,7 +771,7 @@
       "container-fluid",
       "container-fixed"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "container creates a responsive fixed-width container."
   },
   {
@@ -782,7 +782,7 @@
       "container",
       "full-container"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "container-fluid spans the entire width of the viewport."
   },
   {
@@ -793,7 +793,7 @@
       "col",
       "grid-row"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "row is used to define a horizontal row in the grid system."
   },
   {
@@ -804,7 +804,7 @@
       "col-md-6",
       "col-span-6"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "col-6 makes the column span 6 units on all breakpoints."
   },
   {
@@ -815,7 +815,7 @@
       "alert-success",
       "alert-successful"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "alert alert-success creates a green success alert."
   },
   {
@@ -826,7 +826,7 @@
       "popup",
       "dialog-box"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The modal class is used for Bootstrap modal dialogs."
   },
   {
@@ -837,7 +837,7 @@
       "dropmenu",
       "menu-dropdown"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The dropdown class creates a dropdown container."
   },
   {
@@ -848,7 +848,7 @@
       "group-list",
       "list-container"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "list-group creates a Bootstrap styled list."
   },
   {
@@ -859,7 +859,7 @@
       "label",
       "tag"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "badge creates small count or label indicators."
   },
   {
@@ -870,7 +870,7 @@
       "slider",
       "carousel-slide"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The carousel class creates a sliding carousel component."
   },
 
@@ -882,7 +882,7 @@
       "<section>",
       "<div>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<main> is intended to contain the main content of a page."
   },
   {
@@ -893,7 +893,7 @@
       "color",
       "bgcolor"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "background-color sets the background; color sets text color."
   },
   {
@@ -904,7 +904,7 @@
       "display: block;",
       "display: inline"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "display: flex enables flexbox layout."
   },
   {
@@ -915,7 +915,7 @@
       "push()",
       "shift()"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "unshift() adds elements to the start; push() adds to the end."
   },
   {
@@ -926,7 +926,7 @@
       "useState",
       "useContext"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "useEffect runs side effects in functional components."
   },
   {
@@ -937,7 +937,7 @@
       "border-radius",
       "cornered"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The rounded class applies border-radius to elements."
   },
   {
@@ -948,7 +948,7 @@
       "<header>",
       "<footer>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<nav> is semantically for navigation."
   },
   {
@@ -959,7 +959,7 @@
       "word-spacing",
       "line-height"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "letter-spacing adjusts the space between characters."
   },
   {
@@ -970,7 +970,7 @@
       "contains()",
       "has()"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "includes() returns true if the array contains the value."
   },
   {
@@ -981,7 +981,7 @@
       "useState",
       "useReducer"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "useContext allows global state sharing via context."
   },
   {
@@ -992,7 +992,7 @@
       "card-shadow",
       "shadow-effect"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The shadow class adds default box-shadow to elements."
   },
   {
@@ -1003,7 +1003,7 @@
       "text",
       "email-address"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "type='email' validates input as an email address."
   },
   {
@@ -1014,7 +1014,7 @@
       "stack-order",
       "order"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "z-index sets the stacking order of positioned elements."
   },
   {
@@ -1025,7 +1025,7 @@
       "let",
       "var"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "const defines a variable whose value cannot be reassigned."
   },
   {
@@ -1036,7 +1036,7 @@
       "React.render()",
       "ReactDOM.create()"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "ReactDOM.render() mounts a React component into the DOM."
   },
   {
@@ -1047,7 +1047,7 @@
       "text-bold",
       "font-bold"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "fw-bold applies font-weight: bold."
   },
   {
@@ -1058,7 +1058,7 @@
       "<td>",
       "<th>"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "<tr> defines a table row; <td> is for cells."
   },
   {
@@ -1069,7 +1069,7 @@
       "text-color",
       "font-color"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "color sets the text color in CSS."
   },
   {
@@ -1080,7 +1080,7 @@
       "throw...catch",
       "error...handle"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "try...catch blocks handle exceptions in JavaScript."
   },
   {
@@ -1091,7 +1091,7 @@
       "table-fluid",
       "table-scroll"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "table-responsive makes tables scroll horizontally on small screens."
   }
 ]

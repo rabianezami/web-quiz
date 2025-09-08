@@ -1,0 +1,24 @@
+#check-answers, 
+#back-quiz,
+.back {
+    background-color: #8b5cf6 !important;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+#check-answers:hover,
+#back-quiz:hover,
+.back:hover {
+    background-color: #5714f2 !important;
+}
+
+#try-again {
+    background-color: #3396D3;
+    color: white;
+}
+
+#try-again:hover {
+  background-color: #257aae;
+}
+

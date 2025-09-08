@@ -1,19 +1,19 @@
 #submit-btn, 
 #next-btn {
     background-color: #8b5cf6;
+    color: white;
     border: none;
     width: 100px;
     font-weight: 500;
 }
 
-#submit-btn, 
+#submit-btn:hover, 
 #next-btn:hover {
     background-color: #5714f2;
-
+    color: white;
 }
 
 
 .list-group-item {
     background-color: #f1f1f1;
-    border: none;
 }
