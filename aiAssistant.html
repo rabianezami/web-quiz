@@ -266,7 +266,7 @@
             const errorMessage = document.getElementById('error-message');
             const successMessage = document.getElementById('success-message');
             
-            // API key (in a real application, this should be secured)
+            
             const apiKey = '71260f74c15bct2a0o7b939feaa3813b';
             
             submitBtn.addEventListener('click', function() {
@@ -302,7 +302,6 @@
                         loading.style.display = 'none';
                         
                         if (data.answer) {
-                            // Format the response with code blocks if needed
                             const formattedResponse = formatResponse(data.answer);
                             responseArea.innerHTML = formattedResponse;
                             showSuccess('Response received successfully!');
@@ -318,9 +317,7 @@
             });
             
             function formatResponse(text) {
-                // Simple formatting to detect code blocks
                 if (text.includes('```')) {
-                    // Split text into parts around code blocks
                     const parts = text.split('```');
                     let formattedHTML = '';
                     
