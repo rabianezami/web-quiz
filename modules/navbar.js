@@ -3,6 +3,7 @@ export function renderNavbar() {
         {name: "Home", href: "#", active: true},
         {name: "Categories", href: "#"},
         {name: "Leaderboard", href: "#"},
+        {name: "AI Assistant", href: "./aiAssistant.js"},
         {name: "About", href: "#"}
     ];
 
