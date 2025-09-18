@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Assistant AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8fafc;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            background-color: white;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        h1 {
+            color: #8b5cf6;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #64748b;
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .main-content {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .input-section {
+            flex: 1;
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        .output-section {
+            flex: 1;
+            background-color: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            display: flex;
+            flex-direction: column;
+        }
+        
+        h2 {
+            color: #8b5cf6;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            resize: vertical;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        
+        select, button {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+        
+        button {
+            background-color: #8b5cf6;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #7c3aed;
+        }
+        
+        .response-area {
+            flex: 1;
+            min-height: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            overflow-y: auto;
+            background-color: #f8fafc;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #8b5cf6;
+        }
+        
+        .dot-flashing {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #8b5cf6;
+            color: #8b5cf6;
+            animation: dotFlashing 1s infinite linear alternate;
+            animation-delay: 0.5s;
+            margin-left: 5px;
+        }
+        
+        .dot-flashing::before, .dot-flashing::after {
+            content: '';
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background-color: #8b5cf6;
+            color: #8b5cf6;
+        }
+        
+        .dot-flashing::before {
+            left: -15px;
+            animation: dotFlashing 1s infinite alternate;
+            animation-delay: 0s;
+        }
+        
+        .dot-flashing::after {
+            left: 15px;
+            animation: dotFlashing 1s infinite alternate;
+            animation-delay: 1s;
+        }
+        
+        @keyframes dotFlashing {
+            0% {
+                background-color: #8b5cf6;
+            }
+            50%, 100% {
+                background-color: #d8b4fe;
+            }
+        }
+        
+        .error {
+            color: #ef4444;
+            padding: 10px;
+            background-color: #fee2e2;
+            border-radius: 6px;
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .success {
+            color: #10b981;
+            padding: 10px;
+            background-color: #d1fae5;
+            border-radius: 6px;
+            margin-top: 10px;
+            display: none;
+        }
+        
+        .code-block {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 6px;
+            margin: 10px 0;
+            overflow-x: auto;
+            font-family: 'Courier New', monospace;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Coding Assistant</h1>
+            <p class="subtitle">Get help with your code from our AI assistant. Ask questions, debug code, or request explanations.</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="input-section">
+                <h2>Ask a Coding Question</h2>
+                <textarea id="prompt-input" placeholder="Enter your coding question or problem here..."></textarea>
+                
+                <select id="context-select">
+                    <option value="">General Coding Help</option>
+                    <option value="Provide clear and concise code examples">Code Examples</option>
+                    <option value="Debug the following code and explain the issues">Debugging Help</option>
+                    <option value="Explain the following code in detail">Code Explanation</option>
+                    <option value="Provide a step-by-step solution">Step-by-Step Solution</option>
+                </select>
+                
+                <button id="submit-btn">Get AI Assistance</button>
+                
+                <div class="error" id="error-message"></div>
+                <div class="success" id="success-message"></div>
+            </div>
+            
+            <div class="output-section">
+                <h2>AI Response</h2>
+                <div class="response-area" id="response-area">
+                    <p>Your response will appear here...</p>
+                </div>
+                
+                <div class="loading" id="loading">
+                    <p>Thinking... <span class="dot-flashing"></span></p>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Powered by SheCodes AI API | Code Assistant © 2023</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const promptInput = document.getElementById('prompt-input');
+            const contextSelect = document.getElementById('context-select');
+            const submitBtn = document.getElementById('submit-btn');
+            const responseArea = document.getElementById('response-area');
+            const loading = document.getElementById('loading');
+            const errorMessage = document.getElementById('error-message');
+            const successMessage = document.getElementById('success-message');
+            
+            // API key (in a real application, this should be secured)
+            const apiKey = '71260f74c15bct2a0o7b939feaa3813b';
+            
+            submitBtn.addEventListener('click', function() {
+                const prompt = promptInput.value.trim();
+                const context = contextSelect.value;
+                
+                // Validate input
+                if (!prompt) {
+                    showError('Please enter a question or coding problem.');
+                    return;
+                }
+                
+                // Clear previous messages
+                hideMessages();
+                
+                // Show loading state
+                loading.style.display = 'block';
+                responseArea.innerHTML = '';
+                
+                // Prepare the API request
+                const url = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(prompt)}&context=${encodeURIComponent(context)}&key=${apiKey}`;
+                
+                // Make the API request
+                fetch(url)
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('API request failed');
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // Hide loading state
+                        loading.style.display = 'none';
+                        
+                        if (data.answer) {
+                            // Format the response with code blocks if needed
+                            const formattedResponse = formatResponse(data.answer);
+                            responseArea.innerHTML = formattedResponse;
+                            showSuccess('Response received successfully!');
+                        } else {
+                            throw new Error('No answer received from AI');
+                        }
+                    })
+                    .catch(error => {
+                        loading.style.display = 'none';
+                        responseArea.innerHTML = '<p>Sorry, there was an error processing your request.</p>';
+                        showError('Error: ' + error.message);
+                    });
+            });
+            
+            function formatResponse(text) {
+                // Simple formatting to detect code blocks
+                if (text.includes('```')) {
+                    // Split text into parts around code blocks
+                    const parts = text.split('```');
+                    let formattedHTML = '';
+                    
+                    for (let i = 0; i < parts.length; i++) {
+                        if (i % 2 === 0) {
+                            // Regular text
+                            formattedHTML += '<p>' + parts[i].replace(/\n/g, '<br>') + '</p>';
+                        } else {
+                            // Code block
+                            formattedHTML += '<div class="code-block">' + parts[i] + '</div>';
+                        }
+                    }
+                    
+                    return formattedHTML;
+                } else {
+                    return '<p>' + text.replace(/\n/g, '<br>') + '</p>';
+                }
+            }
+            
+            function showError(message) {
+                errorMessage.textContent = message;
+                errorMessage.style.display = 'block';
+            }
+            
+            function showSuccess(message) {
+                successMessage.textContent = message;
+                successMessage.style.display = 'block';
+                
+                // Hide success message after 3 seconds
+                setTimeout(hideMessages, 3000);
+            }
+            
+            function hideMessages() {
+                errorMessage.style.display = 'none';
+                successMessage.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
