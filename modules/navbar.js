@@ -3,6 +3,7 @@ export function renderNavbar(sections = []) {
         {name: "Home", href: "#", active: true},
         {name: "Categories", href: "#", dropdown: true},
         {name: "Leaderboard", href: "#"},
+        {name: "AI Assistant", href: "aiAssistant.html"},
         {name: "About", href: "#"}
     ];
 
