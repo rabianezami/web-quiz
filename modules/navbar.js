@@ -1,19 +1,38 @@
-export function renderNavbar() {
+export function renderNavbar(sections = []) {
     const links = [
         {name: "Home", href: "#", active: true},
-        {name: "Categories", href: "#"},
+        {name: "Categories", href: "#", dropdown: true},
         {name: "Leaderboard", href: "#"},
         {name: "About", href: "#"}
     ];
 
-    const navItems = links
-    .map(link => `
-        <li class="nav-item">
-          <a class="nav-link ${link.active ? "active" : ""}" href="${link.href}">
-            ${link.name}
-          </a>
-        </li>
-    `).join("");
+    const navItems = links.map(link => {
+        if (link.dropdown) {
+            const dropdownItems = sections.map(sec => `
+                <li><a class="dropdown-item" href="quiz.html?section=${sec}">${sec}</a></li>
+            `).join("");
+
+            return `
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                  ${link.name}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  ${dropdownItems}
+                </ul>
+              </li>
+            `;
+        } else {
+            return `
+              <li class="nav-item">
+                <a class="nav-link ${link.active ? "active" : ""}" href="${link.href}">
+                  ${link.name}
+                </a>
+              </li>
+            `;
+        }
+    }).join("");
 
     return `
     <nav class="navbar py-3">
@@ -38,7 +57,7 @@ export function renderNavbar() {
        </div>
      </nav> 
 
-     <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="offcanvasMenu" aria-labelledy="offcanvasMenuLabel">
+     <div class="offcanvas offcanvas-start p-3" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
        <div class="offcanvas-header">
          <button type="button" class="btn-close text-reset mt-4" data-bs-dismiss="offcanvas" aria-label="close"></button>
        </div>

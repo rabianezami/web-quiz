@@ -50,7 +50,7 @@ function getMessage(score, total) {
 
 // نمایش لیست جواب‌های کاربر
 function renderAnswers(container) {
-  const data = JSON.parse(localStorage.getItem("quiz-progress"));
+  const data = JSON.parse(localStorage.getItem("quizProgress"));
   if (!data || !data.answers) {
     container.innerHTML = `<p class="text-danger mt-3">❌ No answer data available.</p>`;
     return;

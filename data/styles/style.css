@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-layout {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Sidebar در دسکتاپ */
+.section-sidebar {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-sidebar .section-btn {
+  width: 100%;
+  text-align: left;
+}
+
+/* active بخش انتخاب‌شده */
+.section-btn.active {
+  background-color: #8b5cf6;
+  color: white;
+}
+
+/* موبایل: نمایش بخش‌ها در بالا */
+@media (max-width: 768px) {
+  .quiz-layout {
+    flex-direction: column;
+  }
+  .section-sidebar {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-sidebar .section-btn {
+    width: auto;
+    flex: 1 1 45%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

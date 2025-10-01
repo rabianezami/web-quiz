@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "section": "HTML",
     "question": "Which statement about HTML is NOT correct?",
     "options": [
       "HTML is used to structure the content of web pages.",
@@ -12,6 +13,7 @@
   },
   {
     "id": 2,
+    "section": "HTML",
     "question": "Which statement about the <img> tag in HTML is wrong?",
     "options": [
       "<img> is used to display an image.",
@@ -23,1077 +25,1781 @@
   },
   {
     "id": 3,
-    "question": "Which of the following is NOT true about HTML forms?",
+    "section": "HTML",
+    "question": "Which tag is used to create a hyperlink?",
     "options": [
-      "Forms are used to collect user input.",
-      "The <form> tag can contain inputs, checkboxes, and buttons.",
-      "Forms are used to style the webpage."
+      "<a> defines a link to another page.",
+      "<link> is used to define hyperlinks inside body.",
+      "<a> can open links in a new tab using target='_blank'."
     ],
-    "answer": 2,
-    "explanation": "Styling is handled by CSS, not HTML forms."
+    "answer": 1,
+    "explanation": "<link> is not used inside the body for hyperlinks; <a> is the correct tag."
   },
   {
     "id": 4,
-    "question": "Which statement about CSS is NOT correct?",
+    "section": "HTML",
+    "question": "Which tag defines a paragraph?",
     "options": [
-      "CSS is used to change colors, fonts, and spacing.",
-      "CSS can manage styling across multiple pages.",
-      "CSS is used to store user data in a database."
+      "<p> creates a paragraph in HTML.",
+      "<para> is a valid HTML tag.",
+      "Paragraph text can be styled with CSS."
     ],
-    "answer": 2,
-    "explanation": "Databases store data, CSS only handles styling."
+    "answer": 1,
+    "explanation": "<para> is not a valid HTML tag; <p> is correct."
   },
   {
     "id": 5,
-    "question": "Which CSS property controls text size?",
+    "section": "HTML",
+    "question": "What does the 'alt' attribute in <img> do?",
     "options": [
-      "font-size",
-      "text-style",
-      "text-size"
+      "Provides alternative text when the image cannot load.",
+      "Defines a tooltip that appears on hover.",
+      "Describes the image for screen readers."
     ],
-    "answer": 0,
-    "explanation": "The correct property is font-size."
+    "answer": 1,
+    "explanation": "The 'alt' attribute does not create a tooltip; 'title' does. 'alt' is for alternative text."
   },
   {
     "id": 6,
-    "question": "Which of the following is NOT a valid CSS unit?",
+    "section": "HTML",
+    "question": "Which HTML tag represents the largest heading?",
     "options": [
-      "px",
-      "em",
-      "kg"
+      "<h1> is the largest heading.",
+      "<h6> is used for smallest heading.",
+      "<head> can be used for headings."
     ],
     "answer": 2,
-    "explanation": "kg is a weight unit, not a CSS measurement unit."
+    "explanation": "<head> is not a heading tag; it's for metadata."
   },
   {
     "id": 7,
-    "question": "Which CSS property is used to change the background color?",
+    "section": "HTML",
+    "question": "Which attribute provides a unique identifier to an element?",
     "options": [
-      "color",
-      "background-color",
-      "bgcolor"
+      "id defines a unique identifier.",
+      "class can be used multiple times.",
+      "name is used mainly for form inputs."
     ],
     "answer": 1,
-    "explanation": "background-color is the correct property."
+    "explanation": "class is not unique; id must be unique per element."
   },
   {
     "id": 8,
-    "question": "Which statement about CSS Flexbox is NOT correct?",
+    "section": "HTML",
+    "question": "Which tag is used for an ordered list?",
     "options": [
-      "Flexbox is used for aligning items on a page.",
-      "justify-content is used to align items along the main axis.",
-      "Flexbox is used to store user data."
+      "<ol> creates a numbered list.",
+      "<ul> is for unordered lists.",
+      "<ol> items cannot be nested."
     ],
     "answer": 2,
-    "explanation": "Flexbox only handles layout, not data storage."
+    "explanation": "Ordered lists (<ol>) can be nested; saying they cannot is incorrect."
   },
   {
     "id": 9,
-    "question": "Which property is used to create space inside an element, between the content and the border?",
+    "section": "HTML",
+    "question": "Which tag is used to define table headers?",
     "options": [
-      "padding",
-      "margin",
-      "border-spacing"
+      "<th> defines a header cell.",
+      "<td> is for data cells.",
+      "<tr> is used for table rows only."
     ],
-    "answer": 1,
-    "explanation": "Padding is the space inside the element."
+    "answer": 2,
+    "explanation": "<tr> defines rows, not headers; <th> is correct for headers."
   },
   {
     "id": 10,
-    "question": "Which property creates space outside an element, between the element and others?",
+    "section": "HTML",
+    "question": "Which attribute is used to open links in a new tab?",
     "options": [
-      "padding",
-      "margin",
-      "spacing"
+      "target='_blank' opens in a new tab.",
+      "href='_blank' is correct.",
+      "target='_self' opens in same tab."
     ],
     "answer": 1,
-    "explanation": "Margin is the space outside the element."
+    "explanation": "href='_blank' is invalid; target='_blank' is the correct attribute."
   },
   {
     "id": 11,
-    "question": "Which HTML tag is used to create a hyperlink?",
+    "section": "HTML",
+    "question": "Which tag is used to embed a video?",
     "options": [
-      "<a>",
-      "<link>",
-      "<href>"
+      "<video> is correct.",
+      "<embed> can be used for media.",
+      "<media> is valid HTML5 tag."
     ],
-    "answer": 0,
-    "explanation": "The <a> tag is used for hyperlinks."
+    "answer": 2,
+    "explanation": "<media> is not a valid HTML5 tag; <video> is correct."
   },
   {
     "id": 12,
-    "question": "Which attribute is required in the <img> tag?",
+    "section": "HTML",
+    "question": "Which element defines navigation links?",
     "options": [
-      "src",
-      "alt",
-      "href"
+      "<nav> is for navigation sections.",
+      "<header> defines top page content.",
+      "<nav> can contain <ul> and <a> links."
     ],
-    "answer": 0,
-    "explanation": "The src attribute defines the image source."
+    "answer": 1,
+    "explanation": "<header> is not specifically for navigation; <nav> is."
   },
   {
     "id": 13,
-    "question": "Which CSS property makes text bold?",
+    "section": "HTML",
+    "question": "Which tag defines preformatted text?",
     "options": [
-      "font-weight",
-      "font-bold",
-      "text-weight"
+      "<pre> preserves whitespace and line breaks.",
+      "<code> is for code snippets.",
+      "<text> preserves formatting."
     ],
-    "answer": 0,
-    "explanation": "font-weight is the correct property."
+    "answer": 2,
+    "explanation": "<text> is not a valid HTML tag; <pre> is correct."
   },
   {
     "id": 14,
-    "question": "Which CSS property is used to make text italic?",
+    "section": "HTML",
+    "question": "Which tag is used for grouping form elements?",
     "options": [
-      "font-style",
-      "font-italic",
-      "text-style"
+      "<fieldset> groups form controls.",
+      "<form> can contain fields but not group.",
+      "<group> is a valid HTML tag."
     ],
-    "answer": 0,
-    "explanation": "font-style: italic is correct."
+    "answer": 2,
+    "explanation": "<group> is not valid HTML; <fieldset> is correct."
   },
   {
     "id": 15,
-    "question": "Which HTML tag is used to display tabular data?",
+    "section": "HTML",
+    "question": "Which attribute is required for <input type='email'> to validate email?",
     "options": [
-      "<table>",
-      "<grid>",
-      "<tab>"
+      "type='email' validates format.",
+      "required makes it mandatory.",
+      "pattern='number' is used for email."
     ],
-    "answer": 0,
-    "explanation": "The <table> tag displays tabular data."
+    "answer": 2,
+    "explanation": "pattern='number' is for numbers, not email; type='email' validates emails."
   },
   {
     "id": 16,
-    "question": "Which tag is used to create a list with bullets?",
+    "section": "HTML",
+    "question": "Which HTML5 element represents independent content?",
     "options": [
-      "<ul>",
-      "<ol>",
-      "<list>"
+      "<article> defines self-contained content.",
+      "<aside> is for side content.",
+      "<section> cannot contain <article>."
     ],
-    "answer": 0,
-    "explanation": "<ul> creates an unordered (bulleted) list."
+    "answer": 2,
+    "explanation": "<section> can contain <article>; statement is false."
   },
   {
     "id": 17,
-    "question": "Which tag is used to create a numbered list?",
+    "section": "HTML",
+    "question": "Which attribute specifies the URL for a link?",
     "options": [
-      "<ol>",
-      "<ul>",
-      "<li>"
+      "href defines the link URL.",
+      "src is used for images or scripts.",
+      "link is an attribute for links."
     ],
-    "answer": 0,
-    "explanation": "<ol> creates an ordered (numbered) list."
+    "answer": 2,
+    "explanation": "'link' is not an attribute; href is correct."
   },
   {
     "id": 18,
-    "question": "Which HTML tag is used to define the largest heading?",
+    "section": "HTML",
+    "question": "Which tag defines the footer of a page?",
     "options": [
-      "<h1>",
-      "<h6>",
-      "<heading>"
+      "<footer> defines footer section.",
+      "<bottom> is valid HTML.",
+      "<footer> can contain copyright info."
     ],
-    "answer": 0,
-    "explanation": "<h1> defines the largest heading."
+    "answer": 1,
+    "explanation": "<bottom> is not valid; <footer> is correct."
   },
   {
     "id": 19,
-    "question": "Which property is used to set the width of an element in CSS?",
+    "section": "HTML",
+    "question": "Which tag is used to include JavaScript?",
     "options": [
-      "width",
-      "element-width",
-      "size"
+      "<script> embeds JS.",
+      "<js> is valid.",
+      "<script> can be placed in head or body."
     ],
-    "answer": 0,
-    "explanation": "width is the correct property."
+    "answer": 1,
+    "explanation": "<js> is not valid; <script> is correct."
   },
   {
     "id": 20,
-    "question": "Which CSS property is used to set the height of an element?",
+    "section": "HTML",
+    "question": "Which input type allows date selection?",
     "options": [
-      "height",
-      "element-height",
-      "size"
+      "type='date' creates date picker.",
+      "type='calendar' works in modern browsers.",
+      "type='text' can accept dates manually."
     ],
-    "answer": 0,
-    "explanation": "height is the correct property."
+    "answer": 1,
+    "explanation": "type='calendar' is invalid; 'date' is correct."
   },
-
-
   {
     "id": 21,
-    "question": "Which statement about JavaScript variables is NOT correct?",
+    "section": "HTML",
+    "question": "Which tag defines content aside from main content?",
     "options": [
-      "var is function-scoped.",
-      "let and const are block-scoped.",
-      "JavaScript variables must always start with a capital letter."
+      "<aside> is used for side content.",
+      "<article> is main content.",
+      "<aside> can contain links and widgets."
     ],
-    "answer": 2,
-    "explanation": "Variable names in JavaScript can start with lowercase letters; capitalization is not required."
+    "answer": 1,
+    "explanation": "<article> is main content; statement saying it's aside is wrong."
   },
   {
     "id": 22,
-    "question": "Which operator is used for strict equality comparison?",
+    "section": "HTML",
+    "question": "Which semantic element is used to define sections?",
     "options": [
-      "==",
-      "===",
-      "="
+      "<section> defines thematic groups.",
+      "<div> is generic container.",
+      "<section> cannot contain headings."
     ],
     "answer": 2,
-    "explanation": "'=' is assignment, not comparison. Use '===' for strict equality."
+    "explanation": "<section> can contain headings; statement is false."
   },
   {
     "id": 23,
-    "question": "Which method converts a JSON string into a JavaScript object?",
+    "section": "HTML",
+    "question": "Which attribute is not valid for <a> tag?",
     "options": [
-      "JSON.parse()",
-      "JSON.stringify()",
-      "JSON.convert()"
+      "href specifies link destination.",
+      "target defines where to open link.",
+      "src defines link URL."
     ],
     "answer": 2,
-    "explanation": "JSON.parse() converts a JSON string into an object; JSON.convert() does not exist."
+    "explanation": "src is not valid for <a>; href is correct."
   },
   {
     "id": 24,
-    "question": "Which method converts a JavaScript object into a JSON string?",
+    "section": "HTML",
+    "question": "Which tag is used for embedding external resources?",
     "options": [
-      "JSON.stringify()",
-      "JSON.parse()",
-      "JSON.toString()"
+      "<iframe> embeds external pages.",
+      "<embed> embeds media or apps.",
+      "<media> is correct for embedding."
     ],
-    "answer": 1,
-    "explanation": "JSON.stringify() converts an object to a JSON string."
+    "answer": 2,
+    "explanation": "<media> is not a valid tag; iframe/embed are correct."
   },
   {
     "id": 25,
-    "question": "Which of the following is NOT a valid way to declare a function?",
+    "section": "HTML",
+    "question": "Which tag is used for marking emphasized text?",
     "options": [
-      "function myFunc() {}",
-      "const myFunc = () => {}",
-      "function := myFunc() {}"
+      "<em> emphasizes text.",
+      "<strong> makes text bold and important.",
+      "<bold> is valid HTML."
     ],
     "answer": 2,
-    "explanation": "function := myFunc() {} is invalid syntax."
+    "explanation": "<bold> is not a valid HTML tag; use <strong> or <em>."
+  },
+   {
+    "id": 1,
+    "section": "CSS",
+    "question": "Which statement about CSS is NOT correct?",
+    "options": [
+      "CSS is used to style and layout HTML elements.",
+      "CSS includes properties like color, font-size, and margin.",
+      "CSS is used to structure the content of web pages."
+    ],
+    "answer": 2,
+    "explanation": "Structuring content is handled by HTML, not CSS."
   },
   {
-    "id": 26,
-    "question": "Which method adds a new element at the end of an array?",
+    "id": 2,
+    "section": "CSS",
+    "question": "Which syntax is correct for selecting an element by ID?",
     "options": [
-      "push()",
-      "pop()",
-      "append()"
+      "#header { color: red; }",
+      ".header { color: red; }",
+      "header { color: red; }"
     ],
     "answer": 1,
-    "explanation": "push() adds an element; pop() removes the last element."
+    "explanation": "'.header' selects by class, not ID. '#' is for IDs."
   },
   {
-    "id": 27,
-    "question": "Which method removes the last element of an array?",
+    "id": 3,
+    "section": "CSS",
+    "question": "Which property is used to change text color?",
     "options": [
-      "push()",
-      "pop()",
-      "shift()"
-    ],
-    "answer": 0,
-    "explanation": "pop() removes the last element; push() adds one."
-  },
-  {
-    "id": 28,
-    "question": "Which statement about JavaScript loops is wrong?",
-    "options": [
-      "for loops iterate over a block of code.",
-      "while loops continue as long as a condition is true.",
-      "JavaScript does not support loops."
-    ],
-    "answer": 2,
-    "explanation": "JavaScript supports loops like for, while, and for...of."
-  },
-  {
-    "id": 29,
-    "question": "Which keyword defines a constant variable?",
-    "options": [
-      "const",
-      "let",
-      "var"
-    ],
-    "answer": 2,
-    "explanation": "const defines a constant; var and let are not constants."
-  },
-  {
-    "id": 30,
-    "question": "Which statement about JavaScript objects is NOT correct?",
-    "options": [
-      "Objects store key-value pairs.",
-      "You can access values using dot or bracket notation.",
-      "Objects can be iterated with a forEach() method directly."
-    ],
-    "answer": 2,
-    "explanation": "forEach() works on arrays, not directly on objects."
-  },
-  {
-    "id": 31,
-    "question": "Which statement about JavaScript arrays is wrong?",
-    "options": [
-      "Arrays can store multiple values.",
-      "Array elements can be accessed by index.",
-      "Array indices start at 1."
-    ],
-    "answer": 2,
-    "explanation": "Array indices start at 0, not 1."
-  },
-  {
-    "id": 32,
-    "question": "Which statement about JavaScript functions is NOT correct?",
-    "options": [
-      "Arrow functions do not have their own this context.",
-      "Function declarations are hoisted.",
-      "Arrow functions can be used as constructors with new."
-    ],
-    "answer": 2,
-    "explanation": "Arrow functions cannot be used as constructors."
-  },
-  {
-    "id": 33,
-    "question": "Which statement about the 'this' keyword is wrong?",
-    "options": [
-      "'this' refers to the context object in which a function is called.",
-      "Arrow functions inherit 'this' from their enclosing scope.",
-      "'this' always refers to the global object in any function."
-    ],
-    "answer": 2,
-    "explanation": "'this' depends on the calling context; it is not always the global object."
-  },
-
-  {
-    "id": 35,
-    "question": "Which method is used to find the length of a string?",
-    "options": [
-      "str.length",
-      "str.size",
-      "str.count"
+      "color sets the text color.",
+      "background-color changes text color.",
+      "text-color is not a valid property."
     ],
     "answer": 1,
-    "explanation": "str.length returns the number of characters in the string."
+    "explanation": "background-color changes the background, not the text."
   },
   {
-    "id": 36,
-    "question": "Which statement about JavaScript events is wrong?",
+    "id": 4,
+    "section": "CSS",
+    "question": "Which property controls the space outside an element?",
     "options": [
-      "addEventListener() attaches an event handler to an element.",
-      "onclick can be assigned directly to a function.",
-      "Events cannot be used in JavaScript."
+      "margin controls outer space.",
+      "padding controls inner space.",
+      "border-spacing controls inner padding."
     ],
     "answer": 2,
-    "explanation": "JavaScript fully supports events."
+    "explanation": "border-spacing applies to table cells, not general padding."
   },
   {
-    "id": 37,
-    "question": "Which statement about JavaScript Date object is wrong?",
+    "id": 5,
+    "section": "CSS",
+    "question": "Which property changes the background color of an element?",
     "options": [
-      "new Date() creates a new date object.",
-      "getFullYear() returns the year of the date.",
-      "Date objects can be used to style HTML elements."
+      "background-color: blue;",
+      "color: blue;",
+      "bg-color: blue;"
     ],
     "answer": 2,
-    "explanation": "Date objects are for handling date/time, not styling elements."
+    "explanation": "bg-color is not valid; use background-color."
   },
   {
-    "id": 38,
-    "question": "Which statement about JavaScript Boolean values is wrong?",
+    "id": 6,
+    "section": "CSS",
+    "question": "Which CSS property sets the font size?",
     "options": [
-      "Boolean values can be true or false.",
-      "Comparisons return Boolean values.",
-      "Boolean can have values 'yes' or 'no'."
-    ],
-    "answer": 2,
-    "explanation": "Booleans can only be true or false."
-  },
-  {
-    "id": 39,
-    "question": "Which method is used to remove whitespace from both ends of a string?",
-    "options": [
-      "trim()",
-      "slice()",
-      "substr()"
+      "font-size: 16px;",
+      "text-size: 16px;",
+      "font-weight: bold;"
     ],
     "answer": 1,
-    "explanation": "trim() removes spaces from both ends; slice() does not specifically trim whitespace."
+    "explanation": "text-size is not valid; font-size is correct."
   },
   {
-    "id": 40,
-    "question": "Which operator is used to concatenate strings in JavaScript?",
+    "id": 7,
+    "section": "CSS",
+    "question": "Which selector targets all <p> elements inside a <div>?",
     "options": [
-      "+",
-      "&",
-      "&&"
+      "div p { ... }",
+      "p div { ... }",
+      "div > p { ... }"
     ],
     "answer": 1,
-    "explanation": "The '+' operator concatenates strings."
-  },
-
-  {
-    "id": 41,
-    "question": "Which of the following is NOT true about React?",
-    "options": [
-      "React is a JavaScript library for building user interfaces.",
-      "React allows creating reusable components.",
-      "React is a database management system."
-    ],
-    "answer": 2,
-    "explanation": "React is used for building UI, not for managing databases."
+    "explanation": "p div selects divs inside p, which is incorrect."
   },
   {
-    "id": 42,
-    "question": "Which statement about JSX is wrong?",
+    "id": 8,
+    "section": "CSS",
+    "question": "Which property is used to change the text alignment?",
     "options": [
-      "JSX allows writing HTML in JavaScript.",
-      "JSX elements must have a single parent element.",
-      "JSX is an independent programming language."
-    ],
-    "answer": 2,
-    "explanation": "JSX is not a standalone language; it’s syntax sugar for React.createElement."
-  },
-  {
-    "id": 43,
-    "question": "Which is the correct way to define a functional component in React?",
-    "options": [
-      "function MyComponent() { return <h1>Hello</h1>; }",
-      "const MyComponent = () => <h1>Hello</h1>;",
-      "component MyComponent = function() { return <h1>Hello</h1>; }"
-    ],
-    "answer": 2,
-    "explanation": "The syntax 'component MyComponent = ...' is invalid in React."
-  },
-  {
-    "id": 44,
-    "question": "Which statement about useState is NOT correct?",
-    "options": [
-      "useState is a React Hook to manage state in functional components.",
-      "useState returns an array with the state and a setter function.",
-      "useState can be called outside a component."
-    ],
-    "answer": 2,
-    "explanation": "Hooks like useState can only be called inside functional components."
-  },
-  {
-    "id": 45,
-    "question": "Which statement about useEffect is wrong?",
-    "options": [
-      "useEffect runs side effects in functional components.",
-      "useEffect can replace componentDidMount and componentDidUpdate.",
-      "useEffect can be used to directly update the DOM outside React's rendering."
-    ],
-    "answer": 2,
-    "explanation": "Direct DOM manipulation outside React is discouraged; useEffect is for controlled side effects."
-  },
-  {
-    "id": 46,
-    "question": "Which is NOT a valid way to pass props to a React component?",
-    "options": [
-      "<MyComponent name='Alice' />",
-      "<MyComponent age={25} />",
-      "<MyComponent {name='Alice'} />"
-    ],
-    "answer": 2,
-    "explanation": "Props must be passed as name=value or name={value}, not inside braces like {name='Alice'}."
-  },
-  {
-    "id": 47,
-    "question": "Which statement about React keys is wrong?",
-    "options": [
-      "Keys help React identify which items changed in a list.",
-      "Keys should be unique among siblings.",
-      "Keys determine the order of items in an array."
-    ],
-    "answer": 2,
-    "explanation": "Keys help React optimize rendering but do not determine order in the array."
-  },
-  {
-    "id": 48,
-    "question": "Which statement about React component naming is NOT correct?",
-    "options": [
-      "Component names must start with a capital letter.",
-      "Lowercase names are treated as HTML elements.",
-      "React component names must be all uppercase letters."
-    ],
-    "answer": 2,
-    "explanation": "Names should start with a capital letter, but all uppercase is not required."
-  },
-  {
-    "id": 49,
-    "question": "Which statement about controlled components in React is wrong?",
-    "options": [
-      "Controlled components have their state managed by React.",
-      "The value of an input is set via state and updated with onChange.",
-      "Controlled components can change value directly without state."
-    ],
-    "answer": 2,
-    "explanation": "In controlled components, input value should always come from state."
-  },
-  {
-    "id": 50,
-    "question": "Which statement about React Fragment is NOT correct?",
-    "options": [
-      "Fragments let you group elements without adding extra nodes.",
-      "Fragments can use the shorthand <>...</>.",
-      "Fragments create extra <div> tags in the DOM."
-    ],
-    "answer": 2,
-    "explanation": "Fragments do not create extra elements in the DOM."
-  },
-  {
-    "id": 51,
-    "question": "Which statement about React event handling is wrong?",
-    "options": [
-      "React events are named using camelCase.",
-      "React events are passed as functions.",
-      "React events use HTML attributes like onclick."
-    ],
-    "answer": 2,
-    "explanation": "React uses camelCase (onClick), not lowercase HTML attributes (onclick)."
-  },
-  {
-    "id": 52,
-    "question": "Which of the following is NOT true about React props?",
-    "options": [
-      "Props are read-only.",
-      "Props can be used to pass data from parent to child components.",
-      "Props can be modified by the child component."
-    ],
-    "answer": 2,
-    "explanation": "Child components cannot modify props; they are read-only."
-  },
-  {
-    "id": 53,
-    "question": "Which statement about React state is wrong?",
-    "options": [
-      "State stores dynamic data in a component.",
-      "State updates are asynchronous.",
-      "State can be accessed directly from other components."
-    ],
-    "answer": 2,
-    "explanation": "State is local to a component; other components cannot access it directly."
-  },
-  {
-    "id": 54,
-    "question": "Which of the following is NOT a valid React Hook?",
-    "options": [
-      "useState",
-      "useEffect",
-      "useTimer"
-    ],
-    "answer": 2,
-    "explanation": "useTimer is not a built-in React Hook."
-  },
-  {
-    "id": 55,
-    "question": "Which statement about conditional rendering is wrong?",
-    "options": [
-      "You can use the ternary operator for conditional rendering.",
-      "You can use logical && for conditional rendering.",
-      "You can use if statements directly inside JSX expressions."
-    ],
-    "answer": 2,
-    "explanation": "if statements cannot be used directly inside JSX expressions."
-  },
-  {
-    "id": 56,
-    "question": "Which statement about React lists is NOT correct?",
-    "options": [
-      "Use map() to render multiple elements.",
-      "Each list item should have a unique key.",
-      "You should avoid using keys completely."
-    ],
-    "answer": 2,
-    "explanation": "Keys are required to help React identify elements efficiently."
-  },
-  {
-    "id": 57,
-    "question": "Which statement about React Router is wrong?",
-    "options": [
-      "React Router allows navigation between components.",
-      "React Router uses <Route> and <Link> components.",
-      "React Router is used to style React components."
-    ],
-    "answer": 2,
-    "explanation": "React Router handles routing, not styling."
-  },
-  {
-    "id": 58,
-    "question": "Which statement about React context is NOT correct?",
-    "options": [
-      "Context provides a way to pass data without props.",
-      "Context is useful for global data like theme or language.",
-      "Context automatically re-renders the whole app whenever a component mounts."
-    ],
-    "answer": 2,
-    "explanation": "Context updates only affect subscribed components, not the whole app."
-  },
-  {
-    "id": 59,
-    "question": "Which of the following is NOT true about React refs?",
-    "options": [
-      "Refs can be created using React.createRef() or useRef().",
-      "Refs can directly access DOM elements.",
-      "Refs can replace state for all dynamic data management."
-    ],
-    "answer": 2,
-    "explanation": "Refs should not replace state; they are only for direct DOM access or persisting values."
-  },
-  {
-    "id": 60,
-    "question": "Which statement about React StrictMode is wrong?",
-    "options": [
-      "StrictMode helps identify potential problems in an app.",
-      "StrictMode renders components twice in development mode for checks.",
-      "StrictMode is required in production apps to work."
-    ],
-    "answer": 2,
-    "explanation": "StrictMode is only for development checks, not required in production."
-  },
-
-  {
-    "id": 61,
-    "question": "Which of the following is NOT true about Bootstrap?",
-    "options": [
-      "Bootstrap is a CSS framework for responsive design.",
-      "Bootstrap provides pre-built components and utilities.",
-      "Bootstrap is used for backend data processing."
-    ],
-    "answer": 2,
-    "explanation": "Bootstrap only handles frontend design; it does not manage backend processes."
-  },
-  {
-    "id": 62,
-    "question": "Which class in Bootstrap adds a margin to an element?",
-    "options": [
-      "m-3",
-      "p-3",
-      "margin"
+      "text-align: center;",
+      "align-text: center;",
+      "text-align: right;"
     ],
     "answer": 1,
-    "explanation": "m-3 adds margin; p-3 adds padding."
+    "explanation": "align-text is invalid; text-align is correct."
   },
   {
-    "id": 63,
-    "question": "Which Bootstrap class adds padding to an element?",
+    "id": 9,
+    "section": "CSS",
+    "question": "Which property sets the space inside an element?",
     "options": [
-      "p-3",
-      "m-3",
-      "pad-3"
+      "padding: 10px;",
+      "margin: 10px;",
+      "spacing: 10px;"
     ],
-    "answer": 0,
-    "explanation": "p-3 adds padding; m-3 adds margin. pad-3 is not valid."
+    "answer": 2,
+    "explanation": "spacing is not a valid CSS property; padding controls inner space."
   },
   {
-    "id": 64,
-    "question": "Which class centers text in Bootstrap?",
+    "id": 10,
+    "section": "CSS",
+    "question": "Which property is used to change the font style to italic?",
     "options": [
-      "text-center",
-      "center-text",
-      "align-center"
+      "font-style: italic;",
+      "font-weight: italic;",
+      "text-style: italic;"
     ],
-    "answer": 0,
-    "explanation": "text-center centers text horizontally."
+    "answer": 1,
+    "explanation": "font-weight is for boldness, text-style is invalid; font-style: italic is correct."
   },
   {
-    "id": 65,
-    "question": "Which class makes an element responsive in Bootstrap?",
+    "id": 11,
+    "section": "CSS",
+    "question": "Which property changes the element's border width?",
+    "options": [
+      "border-width: 2px;",
+      "border-size: 2px;",
+      "border: 2px solid black;"
+    ],
+    "answer": 1,
+    "explanation": "border-size is not valid; border-width or border shorthand are correct."
+  },
+  {
+    "id": 12,
+    "section": "CSS",
+    "question": "Which property changes an element’s opacity?",
+    "options": [
+      "opacity: 0.5;",
+      "transparency: 0.5;",
+      "filter: alpha(opacity=50);"
+    ],
+    "answer": 1,
+    "explanation": "transparency is not valid in CSS; opacity or filter can be used."
+  },
+  {
+    "id": 13,
+    "section": "CSS",
+    "question": "Which property is used to control the element’s display behavior?",
+    "options": [
+      "display: block;",
+      "position: relative;",
+      "show: inline;"
+    ],
+    "answer": 2,
+    "explanation": "show is not a CSS property; display controls layout behavior."
+  },
+  {
+    "id": 14,
+    "section": "CSS",
+    "question": "Which property is used to change the space between letters?",
+    "options": [
+      "letter-spacing: 2px;",
+      "word-spacing: 2px;",
+      "line-spacing: 2px;"
+    ],
+    "answer": 2,
+    "explanation": "line-spacing is invalid; letter-spacing or word-spacing are correct."
+  },
+  {
+    "id": 15,
+    "section": "CSS",
+    "question": "Which pseudo-class applies styles when the mouse hovers over an element?",
+    "options": [
+      ":hover applies on mouse over.",
+      ":active applies when clicked.",
+      ":hover applies on focus."
+    ],
+    "answer": 2,
+    "explanation": ":hover works on mouse hover, not focus; :focus is different."
+  },
+  {
+    "id": 16,
+    "section": "CSS",
+    "question": "Which property is used to create rounded corners?",
+    "options": [
+      "border-radius: 10px;",
+      "border-corner: 10px;",
+      "border-radius: 50%;"
+    ],
+    "answer": 1,
+    "explanation": "border-corner is invalid; border-radius is correct."
+  },
+  {
+    "id": 17,
+    "section": "CSS",
+    "question": "Which property is used to add shadow to text?",
+    "options": [
+      "text-shadow: 2px 2px 5px gray;",
+      "box-shadow: 2px 2px 5px gray;",
+      "shadow: 2px 2px 5px gray;"
+    ],
+    "answer": 2,
+    "explanation": "shadow is not a CSS property; text-shadow or box-shadow are correct."
+  },
+  {
+    "id": 18,
+    "section": "CSS",
+    "question": "Which property controls the stacking order of elements?",
+    "options": [
+      "z-index: 10;",
+      "stack: 10;",
+      "position: relative;"
+    ],
+    "answer": 1,
+    "explanation": "stack is invalid; z-index controls stacking order."
+  },
+  {
+    "id": 19,
+    "section": "CSS",
+    "question": "Which property makes text bold?",
+    "options": [
+      "font-weight: bold;",
+      "text-weight: bold;",
+      "font-style: bold;"
+    ],
+    "answer": 1,
+    "explanation": "text-weight is invalid; font-weight is correct."
+  },
+  {
+    "id": 20,
+    "section": "CSS",
+    "question": "Which property is used to create a flex container?",
+    "options": [
+      "display: flex;",
+      "flex-container: true;",
+      "display: inline-flex;"
+    ],
+    "answer": 1,
+    "explanation": "flex-container is not valid; display:flex or display:inline-flex are correct."
+  },
+  {
+    "id": 21,
+    "section": "CSS",
+    "question": "Which property is used to hide an element but keep space?",
+    "options": [
+      "visibility: hidden;",
+      "display: none;",
+      "opacity: 0;"
+    ],
+    "answer": 1,
+    "explanation": "display:none removes the element from layout; visibility:hidden hides but keeps space."
+  },
+  {
+    "id": 22,
+    "section": "CSS",
+    "question": "Which property controls the position of an element?",
+    "options": [
+      "position: absolute;",
+      "position: fixed;",
+      "place: relative;"
+    ],
+    "answer": 2,
+    "explanation": "place is invalid; position is correct."
+  },
+  {
+    "id": 23,
+    "section": "CSS",
+    "question": "Which property allows text to wrap within its container?",
+    "options": [
+      "word-wrap: break-word;",
+      "white-space: nowrap;",
+      "overflow-wrap: break-word;"
+    ],
+    "answer": 1,
+    "explanation": "white-space: nowrap prevents wrapping; word-wrap or overflow-wrap allow wrapping."
+  },
+  {
+    "id": 24,
+    "section": "CSS",
+    "question": "Which property sets the background image of an element?",
+    "options": [
+      "background-image: url('img.jpg');",
+      "bg-image: url('img.jpg');",
+      "background: url('img.jpg');"
+    ],
+    "answer": 1,
+    "explanation": "bg-image is invalid; background-image or shorthand background are correct."
+  },
+  {
+    "id": 25,
+    "section": "CSS",
+    "question": "Which property controls the order of flex items?",
+    "options": [
+      "order: 1;",
+      "flex-order: 1;",
+      "order: -1;"
+    ],
+    "answer": 1,
+    "explanation": "flex-order is invalid; 'order' is the correct CSS property."
+  },
+   {
+    "id": 1,
+    "section": "Bootstrap",
+    "question": "Which statement about Bootstrap is NOT correct?",
+    "options": [
+      "Bootstrap is a CSS framework for building responsive websites.",
+      "Bootstrap includes pre-designed components like buttons and forms.",
+      "Bootstrap requires JavaScript knowledge for basic styling."
+    ],
+    "answer": 2,
+    "explanation": "Basic styling in Bootstrap can be done using CSS classes; JavaScript is only for interactive components."
+  },
+  {
+    "id": 2,
+    "section": "Bootstrap",
+    "question": "Which class is used to create a responsive container?",
+    "options": [
+      "container",
+      "container-fluid",
+      "responsive-container"
+    ],
+    "answer": 2,
+    "explanation": "'responsive-container' is not a valid Bootstrap class; use 'container' or 'container-fluid'."
+  },
+  {
+    "id": 3,
+    "section": "Bootstrap",
+    "question": "Which class adds a primary button style?",
+    "options": [
+      "btn btn-primary",
+      "button-primary",
+      "btn-primary"
+    ],
+    "answer": 1,
+    "explanation": "'button-primary' is not valid; use 'btn btn-primary'."
+  },
+  {
+    "id": 4,
+    "section": "Bootstrap",
+    "question": "Which class sets the text color to success (green)?",
+    "options": [
+      "text-success",
+      "text-green",
+      "text-primary"
+    ],
+    "answer": 1,
+    "explanation": "'text-green' is invalid; 'text-success' sets green text."
+  },
+  {
+    "id": 5,
+    "section": "Bootstrap",
+    "question": "Which class creates a responsive image?",
     "options": [
       "img-fluid",
-      "responsive",
-      "img-responsive"
+      "img-responsive",
+      "img-scale"
     ],
-    "answer": 0,
-    "explanation": "img-fluid makes images scale automatically with the parent element."
+    "answer": 2,
+    "explanation": "'img-scale' is not valid; 'img-fluid' makes the image responsive."
   },
   {
-    "id": 66,
-    "question": "Which class makes a button primary colored in Bootstrap?",
+    "id": 6,
+    "section": "Bootstrap",
+    "question": "Which class is used for a navigation bar?",
     "options": [
-      "btn-primary",
-      "btn-main",
-      "button-primary"
+      "navbar",
+      "nav",
+      "navigation-bar"
     ],
-    "answer": 0,
-    "explanation": "btn-primary applies the primary Bootstrap color to buttons."
+    "answer": 2,
+    "explanation": "'navigation-bar' is invalid; 'navbar' is the correct Bootstrap class."
   },
   {
-    "id": 67,
-    "question": "Which class creates a Bootstrap card?",
+    "id": 7,
+    "section": "Bootstrap",
+    "question": "Which grid class creates a column that spans 6 units on medium screens?",
     "options": [
-      "card",
-      "panel",
-      "box"
+      "col-md-6",
+      "col-6",
+      "col-md-12"
     ],
-    "answer": 0,
-    "explanation": "The card class is used to create card components."
+    "answer": 2,
+    "explanation": "col-md-12 spans full width; col-md-6 is correct for 6 units."
   },
   {
-    "id": 68,
-    "question": "Which class makes a Bootstrap navbar fixed at the top?",
+    "id": 8,
+    "section": "Bootstrap",
+    "question": "Which class adds spacing (margin) utility?",
     "options": [
-      "fixed-top",
-      "sticky-top",
-      "top-nav"
+      "m-3 adds margin",
+      "p-3 adds padding",
+      "spacing-3 adds margin"
     ],
-    "answer": 0,
-    "explanation": "fixed-top keeps the navbar at the top of the viewport."
+    "answer": 2,
+    "explanation": "'spacing-3' is invalid; 'm-3' and 'p-3' are correct."
   },
   {
-    "id": 69,
-    "question": "Which class makes a Bootstrap navbar stick only when scrolling?",
+    "id": 9,
+    "section": "Bootstrap",
+    "question": "Which class creates an alert box with danger style?",
     "options": [
-      "sticky-top",
-      "fixed-top",
-      "navbar-stick"
+      "alert alert-danger",
+      "alert-danger",
+      "alert alert-success"
     ],
-    "answer": 0,
-    "explanation": "sticky-top makes the element stick after scrolling to its position."
+    "answer": 1,
+    "explanation": "'alert-danger' alone is invalid; use 'alert alert-danger'."
   },
   {
-    "id": 70,
-    "question": "Which class makes a Bootstrap element hidden on small screens?",
+    "id": 10,
+    "section": "Bootstrap",
+    "question": "Which class makes text bold in Bootstrap?",
+    "options": [
+      "fw-bold",
+      "font-bold",
+      "font-weight-bold"
+    ],
+    "answer": 1,
+    "explanation": "'font-bold' is not valid in Bootstrap 5; 'fw-bold' or 'font-weight-bold' are correct."
+  },
+  {
+    "id": 11,
+    "section": "Bootstrap",
+    "question": "Which class hides an element on small screens?",
     "options": [
       "d-none d-sm-block",
       "d-block d-sm-none",
-      "hidden-sm"
+      "d-hide"
     ],
-    "answer": 0,
-    "explanation": "d-none hides the element, d-sm-block shows it on small screens and above."
+    "answer": 2,
+    "explanation": "'d-hide' is invalid; use display utility classes like 'd-none d-sm-block'."
   },
   {
-    "id": 71,
-    "question": "Which class is used to create a Bootstrap container with fixed width?",
+    "id": 12,
+    "section": "Bootstrap",
+    "question": "Which class applies rounded corners to images or elements?",
     "options": [
-      "container",
-      "container-fluid",
-      "container-fixed"
+      "rounded",
+      "round",
+      "rounded-circle"
     ],
-    "answer": 0,
-    "explanation": "container creates a responsive fixed-width container."
+    "answer": 1,
+    "explanation": "'round' is not valid; 'rounded' and 'rounded-circle' are correct."
   },
   {
-    "id": 72,
-    "question": "Which class is used for a full-width container in Bootstrap?",
+    "id": 13,
+    "section": "Bootstrap",
+    "question": "Which class sets a dark background for a navbar?",
     "options": [
-      "container-fluid",
-      "container",
-      "full-container"
+      "navbar-dark bg-dark",
+      "navbar bg-dark",
+      "navbar-light bg-dark"
     ],
-    "answer": 0,
-    "explanation": "container-fluid spans the entire width of the viewport."
+    "answer": 1,
+    "explanation": "Missing 'navbar-dark'; 'navbar bg-dark' alone is insufficient."
   },
   {
-    "id": 73,
-    "question": "Which class is used to create a Bootstrap row?",
+    "id": 14,
+    "section": "Bootstrap",
+    "question": "Which class adds a shadow to a card?",
+    "options": [
+      "shadow",
+      "card-shadow",
+      "shadow-lg"
+    ],
+    "answer": 1,
+    "explanation": "'card-shadow' is invalid; use 'shadow' or 'shadow-lg'."
+  },
+  {
+    "id": 15,
+    "section": "Bootstrap",
+    "question": "Which class adds responsive padding inside a container?",
+    "options": [
+      "p-3",
+      "m-3",
+      "container-p"
+    ],
+    "answer": 2,
+    "explanation": "'container-p' is invalid; 'p-3' adds padding."
+  },
+  {
+    "id": 16,
+    "section": "Bootstrap",
+    "question": "Which class creates a responsive grid row?",
     "options": [
       "row",
-      "col",
-      "grid-row"
+      "grid-row",
+      "row-cols-3"
     ],
-    "answer": 0,
-    "explanation": "row is used to define a horizontal row in the grid system."
+    "answer": 1,
+    "explanation": "'grid-row' is invalid; 'row' and 'row-cols-3' are correct."
   },
   {
-    "id": 74,
-    "question": "Which class is used to create a column that spans 6 grid units?",
+    "id": 17,
+    "section": "Bootstrap",
+    "question": "Which class creates a large button?",
     "options": [
-      "col-6",
-      "col-md-6",
-      "col-span-6"
+      "btn btn-primary btn-lg",
+      "btn-large btn-primary",
+      "btn btn-secondary btn-lg"
     ],
-    "answer": 0,
-    "explanation": "col-6 makes the column span 6 units on all breakpoints."
+    "answer": 1,
+    "explanation": "'btn-large' is not valid; use 'btn-lg' with btn class."
   },
   {
-    "id": 75,
-    "question": "Which class adds a Bootstrap alert with a success style?",
+    "id": 18,
+    "section": "Bootstrap",
+    "question": "Which class is used to create a badge with a background color?",
     "options": [
-      "alert alert-success",
-      "alert-success",
-      "alert-successful"
+      "badge bg-primary",
+      "badge-primary",
+      "badge bg-success"
     ],
-    "answer": 0,
-    "explanation": "alert alert-success creates a green success alert."
+    "answer": 1,
+    "explanation": "'badge-primary' alone is invalid in Bootstrap 5; use 'badge bg-primary'."
   },
   {
-    "id": 76,
-    "question": "Which class adds a Bootstrap modal?",
+    "id": 19,
+    "section": "Bootstrap",
+    "question": "Which class makes text centered?",
     "options": [
-      "modal",
-      "popup",
-      "dialog-box"
+      "text-center",
+      "text-middle",
+      "text-end"
     ],
-    "answer": 0,
-    "explanation": "The modal class is used for Bootstrap modal dialogs."
+    "answer": 1,
+    "explanation": "'text-middle' is invalid; 'text-center' centers text."
   },
   {
-    "id": 77,
-    "question": "Which class is used to create a Bootstrap dropdown menu?",
+    "id": 20,
+    "section": "Bootstrap",
+    "question": "Which class makes an image circular?",
     "options": [
-      "dropdown",
-      "dropmenu",
-      "menu-dropdown"
+      "rounded-circle",
+      "circle",
+      "img-circle"
     ],
-    "answer": 0,
-    "explanation": "The dropdown class creates a dropdown container."
+    "answer": 1,
+    "explanation": "'circle' is invalid; 'rounded-circle' makes an image circular."
   },
   {
-    "id": 78,
-    "question": "Which class is used to create a Bootstrap list group?",
+    "id": 21,
+    "section": "Bootstrap",
+    "question": "Which class makes a table responsive?",
     "options": [
-      "list-group",
-      "group-list",
-      "list-container"
+      "table-responsive",
+      "table-scroll",
+      "table-striped"
     ],
-    "answer": 0,
-    "explanation": "list-group creates a Bootstrap styled list."
+    "answer": 1,
+    "explanation": "'table-scroll' is invalid; 'table-responsive' makes table scrollable on small screens."
   },
   {
-    "id": 79,
-    "question": "Which class is used for Bootstrap badges?",
-    "options": [
-      "badge",
-      "label",
-      "tag"
-    ],
-    "answer": 0,
-    "explanation": "badge creates small count or label indicators."
-  },
-  {
-    "id": 80,
-    "question": "Which class adds a Bootstrap carousel?",
+    "id": 22,
+    "section": "Bootstrap",
+    "question": "Which class is used for a carousel component?",
     "options": [
       "carousel",
       "slider",
       "carousel-slide"
     ],
-    "answer": 0,
-    "explanation": "The carousel class creates a sliding carousel component."
+    "answer": 1,
+    "explanation": "'slider' is not a valid Bootstrap class; use 'carousel'."
   },
-
   {
-    "id": 81,
-    "question": "Which HTML element is used to define the main content of a page?",
+    "id": 23,
+    "section": "Bootstrap",
+    "question": "Which class is used to add a small badge?",
     "options": [
-      "<main>",
-      "<section>",
-      "<div>"
+      "badge rounded-pill",
+      "badge-sm",
+      "badge bg-secondary"
     ],
-    "answer": 0,
-    "explanation": "<main> is intended to contain the main content of a page."
+    "answer": 1,
+    "explanation": "'badge-sm' is invalid; use 'badge rounded-pill' or 'badge bg-*'."
   },
   {
-    "id": 82,
-    "question": "Which CSS property changes the background color of an element?",
+    "id": 24,
+    "section": "Bootstrap",
+    "question": "Which class adds spacing between columns in a row?",
     "options": [
-      "background-color",
-      "color",
-      "bgcolor"
+      "g-3",
+      "gap-3",
+      "row-gap"
     ],
-    "answer": 0,
-    "explanation": "background-color sets the background; color sets text color."
+    "answer": 2,
+    "explanation": "'row-gap' is invalid; Bootstrap 5 uses 'g-3' or 'gap-3'."
   },
   {
-    "id": 83,
-    "question": "Which CSS property is used to create a flex container?",
+    "id": 25,
+    "section": "Bootstrap",
+    "question": "Which class creates a responsive fixed-top navbar?",
     "options": [
-      "display: flex;",
-      "display: block;",
-      "display: inline"
+      "navbar fixed-top",
+      "navbar-top",
+      "navbar navbar-expand-lg fixed-top"
     ],
-    "answer": 0,
-    "explanation": "display: flex enables flexbox layout."
+    "answer": 1,
+    "explanation": "'navbar-top' is invalid; use 'navbar fixed-top' or 'navbar navbar-expand-lg fixed-top'."
   },
   {
-    "id": 84,
-    "question": "Which JavaScript method adds an element at the beginning of an array?",
+    "id": 1,
+    "section": "Tailwind",
+    "question": "Which statement about Tailwind CSS is NOT correct?",
     "options": [
-      "unshift()",
-      "push()",
-      "shift()"
+      "Tailwind is a utility-first CSS framework.",
+      "Tailwind provides pre-built components like Bootstrap.",
+      "Tailwind classes are applied directly in HTML."
     ],
-    "answer": 0,
-    "explanation": "unshift() adds elements to the start; push() adds to the end."
+    "answer": 1,
+    "explanation": "Tailwind does not provide pre-built components by default; it focuses on utility classes."
   },
   {
-    "id": 85,
-    "question": "Which React Hook is used to manage side effects?",
+    "id": 2,
+    "section": "Tailwind",
+    "question": "Which class sets text color to red?",
     "options": [
-      "useEffect",
-      "useState",
-      "useContext"
+      "text-red-500",
+      "text-red",
+      "text-red-700"
     ],
-    "answer": 0,
-    "explanation": "useEffect runs side effects in functional components."
+    "answer": 1,
+    "explanation": "'text-red' is incomplete; Tailwind uses shades like 'text-red-500'."
   },
   {
-    "id": 86,
-    "question": "Which Bootstrap class adds rounded corners to an element?",
+    "id": 3,
+    "section": "Tailwind",
+    "question": "Which class sets margin to 4 units?",
+    "options": [
+      "m-4",
+      "p-4",
+      "mt-4"
+    ],
+    "answer": 1,
+    "explanation": "p-4 sets padding, not margin; m-4 sets margin, mt-4 sets top margin."
+  },
+  {
+    "id": 4,
+    "section": "Tailwind",
+    "question": "Which class makes text bold?",
+    "options": [
+      "font-bold",
+      "font-semibold",
+      "text-bold"
+    ],
+    "answer": 2,
+    "explanation": "'text-bold' is not valid; font-bold and font-semibold are correct."
+  },
+  {
+    "id": 5,
+    "section": "Tailwind",
+    "question": "Which class sets background color to blue?",
+    "options": [
+      "bg-blue-500",
+      "background-blue",
+      "bg-blue-700"
+    ],
+    "answer": 1,
+    "explanation": "'background-blue' is not valid; Tailwind uses 'bg-blue-500', 'bg-blue-700', etc."
+  },
+  {
+    "id": 6,
+    "section": "Tailwind",
+    "question": "Which class adds rounded corners?",
     "options": [
       "rounded",
-      "border-radius",
-      "cornered"
+      "rounded-lg",
+      "round"
     ],
-    "answer": 0,
-    "explanation": "The rounded class applies border-radius to elements."
+    "answer": 2,
+    "explanation": "'round' is invalid; 'rounded' or 'rounded-lg' are correct."
   },
   {
-    "id": 87,
-    "question": "Which HTML element is used to define navigation links?",
+    "id": 7,
+    "section": "Tailwind",
+    "question": "Which class sets text alignment to center?",
     "options": [
-      "<nav>",
-      "<header>",
-      "<footer>"
+      "text-center",
+      "text-right",
+      "text-middle"
     ],
-    "answer": 0,
-    "explanation": "<nav> is semantically for navigation."
+    "answer": 2,
+    "explanation": "'text-middle' is invalid; text-center or text-right are correct."
   },
   {
-    "id": 88,
-    "question": "Which CSS property controls the spacing between letters?",
+    "id": 8,
+    "section": "Tailwind",
+    "question": "Which class adds padding on all sides?",
     "options": [
-      "letter-spacing",
-      "word-spacing",
-      "line-height"
+      "p-4",
+      "m-4",
+      "px-4"
     ],
-    "answer": 0,
-    "explanation": "letter-spacing adjusts the space between characters."
+    "answer": 1,
+    "explanation": "m-4 sets margin, px-4 sets horizontal padding; p-4 sets padding on all sides."
   },
   {
-    "id": 89,
-    "question": "Which JavaScript method checks if an array contains a specific value?",
+    "id": 9,
+    "section": "Tailwind",
+    "question": "Which class sets display to flex?",
     "options": [
-      "includes()",
-      "contains()",
-      "has()"
+      "flex",
+      "d-flex",
+      "inline-flex"
     ],
-    "answer": 0,
-    "explanation": "includes() returns true if the array contains the value."
+    "answer": 1,
+    "explanation": "'d-flex' is from Bootstrap; Tailwind uses 'flex' or 'inline-flex'."
   },
   {
-    "id": 90,
-    "question": "Which React Hook allows sharing state across components without props?",
-    "options": [
-      "useContext",
-      "useState",
-      "useReducer"
-    ],
-    "answer": 0,
-    "explanation": "useContext allows global state sharing via context."
-  },
-  {
-    "id": 91,
-    "question": "Which Bootstrap class adds a shadow effect to a card?",
+    "id": 10,
+    "section": "Tailwind",
+    "question": "Which class adds shadow to an element?",
     "options": [
       "shadow",
-      "card-shadow",
-      "shadow-effect"
+      "shadow-md",
+      "box-shadow"
     ],
-    "answer": 0,
-    "explanation": "The shadow class adds default box-shadow to elements."
+    "answer": 2,
+    "explanation": "'box-shadow' is not a Tailwind class; use 'shadow', 'shadow-md', etc."
   },
   {
-    "id": 92,
-    "question": "Which HTML input type is used for entering email addresses?",
+    "id": 11,
+    "section": "Tailwind",
+    "question": "Which class sets width to 1/2 of parent?",
     "options": [
-      "email",
-      "text",
-      "email-address"
+      "w-1/2",
+      "w-2/4",
+      "w-1/3"
     ],
-    "answer": 0,
-    "explanation": "type='email' validates input as an email address."
+    "answer": 1,
+    "explanation": "'w-2/4' is not valid; 'w-1/2' or 'w-1/3' are correct."
   },
   {
-    "id": 93,
-    "question": "Which CSS property controls the stacking order of elements?",
+    "id": 12,
+    "section": "Tailwind",
+    "question": "Which class applies a grid layout?",
     "options": [
-      "z-index",
-      "stack-order",
-      "order"
+      "grid",
+      "flex",
+      "grid-cols-3"
     ],
-    "answer": 0,
-    "explanation": "z-index sets the stacking order of positioned elements."
+    "answer": 1,
+    "explanation": "flex is for flex layout; grid and grid-cols-* are correct."
   },
   {
-    "id": 94,
-    "question": "Which JavaScript keyword is used to create a constant variable?",
+    "id": 13,
+    "section": "Tailwind",
+    "question": "Which class sets text italic?",
+    "options": [
+      "italic",
+      "font-italic",
+      "not-italic"
+    ],
+    "answer": 1,
+    "explanation": "'font-italic' is invalid; Tailwind uses 'italic' or 'not-italic'."
+  },
+  {
+    "id": 14,
+    "section": "Tailwind",
+    "question": "Which class sets maximum width to full?",
+    "options": [
+      "max-w-full",
+      "w-full",
+      "max-width-full"
+    ],
+    "answer": 2,
+    "explanation": "'max-width-full' is invalid; Tailwind uses 'max-w-full'."
+  },
+  {
+    "id": 15,
+    "section": "Tailwind",
+    "question": "Which class adds top margin?",
+    "options": [
+      "mt-4",
+      "mb-4",
+      "my-4"
+    ],
+    "answer": 1,
+    "explanation": "mb-4 is bottom margin, my-4 is vertical margin; mt-4 is correct for top margin."
+  },
+  {
+    "id": 16,
+    "section": "Tailwind",
+    "question": "Which class sets element to fixed position?",
+    "options": [
+      "fixed",
+      "absolute",
+      "pos-fixed"
+    ],
+    "answer": 2,
+    "explanation": "'pos-fixed' is invalid; Tailwind uses 'fixed' or 'absolute'."
+  },
+  {
+    "id": 17,
+    "section": "Tailwind",
+    "question": "Which class sets font size to large?",
+    "options": [
+      "text-lg",
+      "font-large",
+      "text-xl"
+    ],
+    "answer": 1,
+    "explanation": "'font-large' is invalid; Tailwind uses 'text-lg', 'text-xl', etc."
+  },
+  {
+    "id": 18,
+    "section": "Tailwind",
+    "question": "Which class sets overflow to hidden?",
+    "options": [
+      "overflow-hidden",
+      "overflow-none",
+      "overflow-auto"
+    ],
+    "answer": 1,
+    "explanation": "'overflow-none' is invalid; 'overflow-hidden' or 'overflow-auto' are correct."
+  },
+  {
+    "id": 19,
+    "section": "Tailwind",
+    "question": "Which class sets element to be absolutely positioned?",
+    "options": [
+      "absolute",
+      "fixed",
+      "pos-absolute"
+    ],
+    "answer": 2,
+    "explanation": "'pos-absolute' is invalid; use 'absolute' or 'fixed'."
+  },
+  {
+    "id": 20,
+    "section": "Tailwind",
+    "question": "Which class sets text color to gray-700?",
+    "options": [
+      "text-gray-700",
+      "text-gray",
+      "text-gray-500"
+    ],
+    "answer": 1,
+    "explanation": "'text-gray' is incomplete; Tailwind requires shades like 'text-gray-700'."
+  },
+  {
+    "id": 21,
+    "section": "Tailwind",
+    "question": "Which class adds horizontal padding?",
+    "options": [
+      "px-4",
+      "py-4",
+      "p-4"
+    ],
+    "answer": 1,
+    "explanation": "py-4 adds vertical padding, p-4 adds padding all sides; px-4 is correct for horizontal."
+  },
+  {
+    "id": 22,
+    "section": "Tailwind",
+    "question": "Which class creates a flex container with column direction?",
+    "options": [
+      "flex flex-col",
+      "flex flex-row",
+      "flex-column"
+    ],
+    "answer": 2,
+    "explanation": "'flex-column' is invalid; use 'flex flex-col'."
+  },
+  {
+    "id": 23,
+    "section": "Tailwind",
+    "question": "Which class sets border width to 2px?",
+    "options": [
+      "border-2",
+      "border-width-2",
+      "border"
+    ],
+    "answer": 1,
+    "explanation": "'border-width-2' is invalid; use 'border-2'."
+  },
+  {
+    "id": 24,
+    "section": "Tailwind",
+    "question": "Which class adds rounded full corners (circle)?",
+    "options": [
+      "rounded-full",
+      "rounded-circle",
+      "rounded-xl"
+    ],
+    "answer": 1,
+    "explanation": "'rounded-circle' is invalid; 'rounded-full' makes element circular."
+  },
+  {
+    "id": 25,
+    "section": "Tailwind",
+    "question": "Which class sets element visibility to hidden?",
+    "options": [
+      "invisible",
+      "hidden",
+      "visible"
+    ],
+    "answer": 1,
+    "explanation": "'hidden' is a utility in Tailwind for display:none; 'invisible' hides content but keeps space."
+  },
+   {
+    "id": 1,
+    "section": "JavaScript",
+    "question": "Which statement about JavaScript is NOT correct?",
+    "options": [
+      "JavaScript is used to make web pages interactive.",
+      "JavaScript can manipulate the DOM.",
+      "JavaScript is used to structure the content of web pages."
+    ],
+    "answer": 2,
+    "explanation": "Structuring content is handled by HTML, not JavaScript."
+  },
+  {
+    "id": 2,
+    "section": "JavaScript",
+    "question": "Which is a correct way to declare a variable?",
+    "options": [
+      "let name = 'John';",
+      "var age = 25;",
+      "variable city = 'Paris';"
+    ],
+    "answer": 2,
+    "explanation": "'variable' is not valid; use let, const, or var."
+  },
+  {
+    "id": 3,
+    "section": "JavaScript",
+    "question": "Which operator is used for strict equality?",
+    "options": [
+      "===",
+      "==",
+      "!="
+    ],
+    "answer": 2,
+    "explanation": "'!=' is inequality; strict equality uses '==='."
+  },
+  {
+    "id": 4,
+    "section": "JavaScript",
+    "question": "Which method converts a string to an integer?",
+    "options": [
+      "parseInt('10')",
+      "Number('10')",
+      "toInt('10')"
+    ],
+    "answer": 2,
+    "explanation": "'toInt' is not a JavaScript function; use parseInt or Number."
+  },
+  {
+    "id": 5,
+    "section": "JavaScript",
+    "question": "Which event occurs when a user clicks an element?",
+    "options": [
+      "onclick",
+      "onhover",
+      "addEventListener('click', function)"
+    ],
+    "answer": 1,
+    "explanation": "'onhover' is invalid; use 'onclick' or addEventListener('click')."
+  },
+  {
+    "id": 6,
+    "section": "JavaScript",
+    "question": "Which keyword defines a constant variable?",
     "options": [
       "const",
       "let",
+      "constant"
+    ],
+    "answer": 2,
+    "explanation": "'constant' is invalid; use 'const'."
+  },
+  {
+    "id": 7,
+    "section": "JavaScript",
+    "question": "Which method adds an element to the end of an array?",
+    "options": [
+      "push()",
+      "pop()",
+      "append()"
+    ],
+    "answer": 2,
+    "explanation": "append() is not a JavaScript array method; push() adds to end, pop() removes from end."
+  },
+  {
+    "id": 8,
+    "section": "JavaScript",
+    "question": "Which loop is used to iterate a known number of times?",
+    "options": [
+      "for loop",
+      "while loop",
+      "do loop"
+    ],
+    "answer": 2,
+    "explanation": "'do loop' is not a keyword; JavaScript has 'do...while'."
+  },
+  {
+    "id": 9,
+    "section": "JavaScript",
+    "question": "Which symbol is used for single-line comments?",
+    "options": [
+      "//",
+      "/* */",
+      "#"
+    ],
+    "answer": 2,
+    "explanation": "'#' is not valid in JavaScript; use // or /* */ for comments."
+  },
+  {
+    "id": 10,
+    "section": "JavaScript",
+    "question": "Which method returns the length of an array?",
+    "options": [
+      "array.length",
+      "array.size()",
+      "array.length()"
+    ],
+    "answer": 1,
+    "explanation": "array.size() is invalid; array.length property gives the length."
+  },
+  {
+    "id": 11,
+    "section": "JavaScript",
+    "question": "Which keyword creates a function?",
+    "options": [
+      "function",
+      "fun",
+      "=>"
+    ],
+    "answer": 1,
+    "explanation": "'fun' is invalid; use 'function' keyword or arrow function syntax."
+  },
+  {
+    "id": 12,
+    "section": "JavaScript",
+    "question": "Which statement is used to stop a loop?",
+    "options": [
+      "break",
+      "stop",
+      "continue"
+    ],
+    "answer": 1,
+    "explanation": "'stop' is invalid; 'break' stops loop, 'continue' skips iteration."
+  },
+  {
+    "id": 13,
+    "section": "JavaScript",
+    "question": "Which method removes the last element of an array?",
+    "options": [
+      "pop()",
+      "shift()",
+      "delete()"
+    ],
+    "answer": 2,
+    "explanation": "delete() does not remove array elements properly; pop() removes last, shift() removes first."
+  },
+  {
+    "id": 14,
+    "section": "JavaScript",
+    "question": "Which method converts JSON to a JavaScript object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "toObject()"
+    ],
+    "answer": 2,
+    "explanation": "toObject() is invalid; JSON.parse() converts JSON string to object."
+  },
+  {
+    "id": 15,
+    "section": "JavaScript",
+    "question": "Which keyword checks variable type?",
+    "options": [
+      "typeof",
+      "instanceof",
+      "typeis"
+    ],
+    "answer": 2,
+    "explanation": "'typeis' is invalid; typeof checks primitive types, instanceof checks object instances."
+  },
+  {
+    "id": 16,
+    "section": "JavaScript",
+    "question": "Which method adds an element to the beginning of an array?",
+    "options": [
+      "unshift()",
+      "shift()",
+      "push()"
+    ],
+    "answer": 1,
+    "explanation": "shift() removes first element, push() adds to end; unshift() adds to beginning."
+  },
+  {
+    "id": 17,
+    "section": "JavaScript",
+    "question": "Which operator is used for logical AND?",
+    "options": [
+      "&&",
+      "||",
+      "&",
+      "and"
+    ],
+    "answer": 3,
+    "explanation": "'and' is invalid in JavaScript; && is logical AND."
+  },
+  {
+    "id": 18,
+    "section": "JavaScript",
+    "question": "Which method returns a string in uppercase?",
+    "options": [
+      "toUpperCase()",
+      "upper()",
+      "toLowerCase()"
+    ],
+    "answer": 1,
+    "explanation": "'upper()' is invalid; toUpperCase() converts string to uppercase."
+  },
+  {
+    "id": 19,
+    "section": "JavaScript",
+    "question": "Which method finds the index of an element in an array?",
+    "options": [
+      "indexOf()",
+      "findIndex()",
+      "getIndex()"
+    ],
+    "answer": 2,
+    "explanation": "'getIndex()' is invalid; use indexOf() or findIndex()."
+  },
+  {
+    "id": 20,
+    "section": "JavaScript",
+    "question": "Which statement declares a block-scoped variable?",
+    "options": [
+      "let",
+      "const",
       "var"
     ],
-    "answer": 0,
-    "explanation": "const defines a variable whose value cannot be reassigned."
+    "answer": 2,
+    "explanation": "'var' is function-scoped; let and const are block-scoped."
   },
   {
-    "id": 95,
-    "question": "Which React method is used to render a component into the DOM?",
+    "id": 21,
+    "section": "JavaScript",
+    "question": "Which method adds event listener to an element?",
     "options": [
-      "ReactDOM.render()",
-      "React.render()",
-      "ReactDOM.create()"
+      "addEventListener('click', func)",
+      "onclick = func",
+      "onEvent('click', func)"
     ],
-    "answer": 0,
-    "explanation": "ReactDOM.render() mounts a React component into the DOM."
+    "answer": 2,
+    "explanation": "'onEvent' is invalid; use addEventListener or element.onclick."
   },
   {
-    "id": 96,
-    "question": "Which Bootstrap class makes text bold?",
+    "id": 22,
+    "section": "JavaScript",
+    "question": "Which method joins array elements into a string?",
     "options": [
-      "fw-bold",
-      "text-bold",
-      "font-bold"
+      "join()",
+      "concat()",
+      "merge()"
     ],
-    "answer": 0,
-    "explanation": "fw-bold applies font-weight: bold."
+    "answer": 2,
+    "explanation": "'merge()' is invalid; join() or concat() combine array elements."
   },
   {
-    "id": 97,
-    "question": "Which HTML element defines a table row?",
+    "id": 23,
+    "section": "JavaScript",
+    "question": "Which statement checks if two values are equal in value but not type?",
     "options": [
-      "<tr>",
-      "<td>",
-      "<th>"
+      "==",
+      "===",
+      "!="
     ],
-    "answer": 0,
-    "explanation": "<tr> defines a table row; <td> is for cells."
+    "answer": 1,
+    "explanation": "=== checks strict equality (value & type); == checks equality ignoring type."
   },
   {
-    "id": 98,
-    "question": "Which CSS property changes the text color?",
+    "id": 24,
+    "section": "JavaScript",
+    "question": "Which method removes whitespace from both ends of a string?",
     "options": [
-      "color",
-      "text-color",
-      "font-color"
+      "trim()",
+      "strip()",
+      "trimStart()"
     ],
-    "answer": 0,
-    "explanation": "color sets the text color in CSS."
+    "answer": 1,
+    "explanation": "'strip()' is invalid; trim() removes spaces from both ends, trimStart() only from start."
   },
   {
-    "id": 99,
-    "question": "Which JavaScript statement is used to handle exceptions?",
+    "id": 25,
+    "section": "JavaScript",
+    "question": "Which method creates a new array by filtering elements?",
     "options": [
-      "try...catch",
-      "throw...catch",
-      "error...handle"
+      "filter()",
+      "map()",
+      "select()"
     ],
-    "answer": 0,
-    "explanation": "try...catch blocks handle exceptions in JavaScript."
+    "answer": 2,
+    "explanation": "'select()' is invalid; filter() creates a filtered array, map() transforms array."
+  },
+    {
+    "id": 1,
+    "section": "React",
+    "question": "Which statement about React is NOT correct?",
+    "options": [
+      "React is a JavaScript library for building user interfaces.",
+      "React uses a virtual DOM for performance.",
+      "React is a CSS framework."
+    ],
+    "answer": 2,
+    "explanation": "React is not a CSS framework; it is a JavaScript library for building UIs."
   },
   {
-    "id": 100,
-    "question": "Which Bootstrap class adds a responsive table?",
+    "id": 2,
+    "section": "React",
+    "question": "Which is used to create a React component?",
     "options": [
-      "table-responsive",
-      "table-fluid",
-      "table-scroll"
+      "function MyComponent() {}",
+      "class MyComponent extends React.Component {}",
+      "component MyComponent {}"
     ],
-    "answer": 0,
-    "explanation": "table-responsive makes tables scroll horizontally on small screens."
+    "answer": 2,
+    "explanation": "'component' keyword is invalid; use function or class to create components."
+  },
+  {
+    "id": 3,
+    "section": "React",
+    "question": "Which attribute is used to pass data to components?",
+    "options": [
+      "props",
+      "state",
+      "attributes"
+    ],
+    "answer": 2,
+    "explanation": "'attributes' is invalid in React; props are used to pass data."
+  },
+  {
+    "id": 4,
+    "section": "React",
+    "question": "Which method updates a component's state?",
+    "options": [
+      "this.setState()",
+      "useState() hook",
+      "this.updateState()"
+    ],
+    "answer": 2,
+    "explanation": "'this.updateState()' is invalid; use setState() or useState() hook."
+  },
+  {
+    "id": 5,
+    "section": "React",
+    "question": "Which statement about JSX is correct?",
+    "options": [
+      "JSX allows writing HTML inside JavaScript.",
+      "JSX is required to write React code.",
+      "JSX elements must be wrapped in a single parent element."
+    ],
+    "answer": 1,
+    "explanation": "JSX is not strictly required; you can use React.createElement(), but JSX is commonly used."
+  },
+  {
+    "id": 6,
+    "section": "React",
+    "question": "Which hook is used to handle side effects?",
+    "options": [
+      "useEffect()",
+      "useState()",
+      "useSideEffect()"
+    ],
+    "answer": 2,
+    "explanation": "'useSideEffect()' does not exist; useEffect() is correct."
+  },
+  {
+    "id": 7,
+    "section": "React",
+    "question": "Which is a valid way to conditionally render content?",
+    "options": [
+      "{condition && <Component />}",
+      "{condition ? <A /> : <B />}",
+      "<if condition><Component /></if>"
+    ],
+    "answer": 2,
+    "explanation": "React does not have <if>; conditional rendering uses && or ternary operator."
+  },
+  {
+    "id": 8,
+    "section": "React",
+    "question": "Which is used for component state in functional components?",
+    "options": [
+      "useState()",
+      "this.state",
+      "state hook"
+    ],
+    "answer": 1,
+    "explanation": "this.state is only for class components; useState() hook is for functional components."
+  },
+  {
+    "id": 9,
+    "section": "React",
+    "question": "Which method is called after a component mounts?",
+    "options": [
+      "componentDidMount()",
+      "useEffect(() => {}, [])",
+      "componentWillMount()"
+    ],
+    "answer": 2,
+    "explanation": "componentWillMount() is deprecated; use componentDidMount or useEffect with empty dependencies."
+  },
+  {
+    "id": 10,
+    "section": "React",
+    "question": "Which key prop is important when rendering lists?",
+    "options": [
+      "key",
+      "id",
+      "index"
+    ],
+    "answer": 1,
+    "explanation": "React requires a 'key' prop to track list items efficiently; 'id' or 'index' can be used as key, but 'key' is the prop name."
+  },
+  {
+    "id": 11,
+    "section": "React",
+    "question": "Which statement about lifting state up is correct?",
+    "options": [
+      "State can be lifted to the nearest common ancestor.",
+      "Props can be used to pass state down.",
+      "State can be directly accessed by any component without props."
+    ],
+    "answer": 2,
+    "explanation": "State cannot be accessed by child components without props; lifting state and passing via props is required."
+  },
+  {
+    "id": 12,
+    "section": "React",
+    "question": "Which is the correct way to handle form input in React?",
+    "options": [
+      "Controlled components with value and onChange",
+      "Uncontrolled components using refs",
+      "Direct DOM manipulation with getElementById"
+    ],
+    "answer": 2,
+    "explanation": "Direct DOM manipulation is not recommended; React prefers controlled or uncontrolled components."
+  },
+  {
+    "id": 13,
+    "section": "React",
+    "question": "Which method is used to pass data from child to parent?",
+    "options": [
+      "Callback function via props",
+      "useContext hook",
+      "Direct state assignment in child"
+    ],
+    "answer": 2,
+    "explanation": "Child cannot directly assign to parent's state; use callback functions or context."
+  },
+  {
+    "id": 14,
+    "section": "React",
+    "question": "Which is true about React fragments?",
+    "options": [
+      "<></> can wrap multiple elements without extra DOM nodes",
+      "React.Fragment can be used instead of <>",
+      "Fragments add extra divs to the DOM"
+    ],
+    "answer": 2,
+    "explanation": "Fragments do NOT add extra DOM nodes; they are invisible wrappers."
+  },
+  {
+    "id": 15,
+    "section": "React",
+    "question": "Which hook shares state across components?",
+    "options": [
+      "useContext()",
+      "useReducer()",
+      "useState()"
+    ],
+    "answer": 2,
+    "explanation": "useState() is local to a component; useContext() shares state across components."
+  },
+  {
+    "id": 16,
+    "section": "React",
+    "question": "Which is correct to memoize a component?",
+    "options": [
+      "React.memo(Component)",
+      "useMemo(Component)",
+      "memoize(Component)"
+    ],
+    "answer": 2,
+    "explanation": "memoize() is not a React function; React.memo or useMemo() are correct depending on context."
+  },
+  {
+    "id": 17,
+    "section": "React",
+    "question": "Which hook manages complex state logic?",
+    "options": [
+      "useReducer()",
+      "useState()",
+      "useEffect()"
+    ],
+    "answer": 2,
+    "explanation": "useEffect handles side effects, not state logic; useReducer is for complex state."
+  },
+  {
+    "id": 18,
+    "section": "React",
+    "question": "Which is correct about keys in lists?",
+    "options": [
+      "Keys must be unique among siblings",
+      "Keys can be reused across different lists",
+      "Keys should not be used at all"
+    ],
+    "answer": 2,
+    "explanation": "Keys should be unique among siblings; reuse across lists is fine; keys are important."
+  },
+  {
+    "id": 19,
+    "section": "React",
+    "question": "Which statement about React Router is NOT correct?",
+    "options": [
+      "React Router enables SPA navigation",
+      "BrowserRouter and Routes are used for routing",
+      "React Router replaces HTML form submission"
+    ],
+    "answer": 2,
+    "explanation": "React Router handles navigation, not form submission; forms still use submit events."
+  },
+  {
+    "id": 20,
+    "section": "React",
+    "question": "Which hook allows using Redux-like state management?",
+    "options": [
+      "useReducer()",
+      "useState()",
+      "useEffect()"
+    ],
+    "answer": 1,
+    "explanation": "useState() and useEffect() are not for Redux-like state; useReducer is similar to Redux reducer."
+  },
+  {
+    "id": 21,
+    "section": "React",
+    "question": "Which statement about React keys and index is correct?",
+    "options": [
+      "Using index as key can cause re-render issues in dynamic lists",
+      "Keys should not rely on indexes for stable lists",
+      "Index as key is always safe for dynamic lists"
+    ],
+    "answer": 2,
+    "explanation": "Using index as key in dynamic lists can cause issues; stable unique keys are better."
+  },
+  {
+    "id": 22,
+    "section": "React",
+    "question": "Which hook prevents unnecessary re-render of a value?",
+    "options": [
+      "useMemo()",
+      "useEffect()",
+      "useState()"
+    ],
+    "answer": 1,
+    "explanation": "useEffect handles side effects; useMemo memoizes computed values."
+  },
+  {
+    "id": 23,
+    "section": "React",
+    "question": "Which statement about useCallback is correct?",
+    "options": [
+      "useCallback memoizes functions",
+      "useCallback replaces useEffect",
+      "useCallback helps prevent re-renders"
+    ],
+    "answer": 1,
+    "explanation": "useCallback does not replace useEffect; it memoizes functions to prevent unnecessary re-renders."
+  },
+  {
+    "id": 24,
+    "section": "React",
+    "question": "Which lifecycle method is replaced by useEffect hook?",
+    "options": [
+      "componentDidMount",
+      "componentDidUpdate",
+      "componentWillUnmount",
+      "render"
+    ],
+    "answer": 3,
+    "explanation": "useEffect can handle componentDidMount, componentDidUpdate, and componentWillUnmount logic; render is a required method, not replaced."
+  },
+  {
+    "id": 25,
+    "section": "React",
+    "question": "Which is true about controlled components?",
+    "options": [
+      "Input value is controlled by React state",
+      "onChange updates the state",
+      "Input value is directly manipulated in the DOM"
+    ],
+    "answer": 2,
+    "explanation": "Controlled components are fully controlled via React state; direct DOM manipulation is not recommended."
   }
+
 ]
-
-
